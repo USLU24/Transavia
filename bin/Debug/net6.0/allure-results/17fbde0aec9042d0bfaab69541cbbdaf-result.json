@@ -1,0 +1,244 @@
+{
+  "uuid": "3e52c095-9a42-4abe-b130-7f9501a58896",
+  "historyId": "33ce9ffda15610cf499d5d26de365844",
+  "testCaseId": "d6a9d042fffc8c42ba080b3c00ce2faf",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/DemoQA Practice Form page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-A"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-B"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "DemoQA Practice Form page",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the  DemoQA Practife Form page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_01-15-58_762.png",
+          "source": "3022b2c1-dd0e-428a-a489-85387017f00c-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717020953940,
+      "stop": 1717020958973
+    },
+    {
+      "name": "When  I enter Name as \"Muharrem\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_01-15-59_672.png",
+          "source": "4c9849e1-abf7-416e-82b0-614665bca05d-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717020958973,
+      "stop": 1717020959850
+    },
+    {
+      "name": "When  I enter Surname as \"Uslu\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_01-15-59_882.png",
+          "source": "8272bf2b-8053-47aa-94b9-c4429cd9a93f-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717020959850,
+      "stop": 1717020960112
+    },
+    {
+      "name": "When  I enter Mail as \"muharrem.uslu@commencis.com\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_01-16-00_147.png",
+          "source": "0d810b65-15d8-4121-9183-9d578ba0565c-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717020960112,
+      "stop": 1717020960359
+    },
+    {
+      "name": "When  I click Gender Male Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_01-16-00_404.png",
+          "source": "f17c9877-fd31-483b-97d7-e4bd1e8efb52-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717020960359,
+      "stop": 1717020960623
+    },
+    {
+      "name": "When  I enter Mobile Number as \"0123456789\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_01-16-00_661.png",
+          "source": "c35ecedc-539c-4e57-9596-87e2716f1f00-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717020960623,
+      "stop": 1717020960875
+    },
+    {
+      "name": "When  I click Hobbies Sports Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_01-16-00_925.png",
+          "source": "ae7a824c-40b2-476d-9ad6-7e864ea7038b-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717020960876,
+      "stop": 1717020961080
+    },
+    {
+      "name": "When  I click Hobbies Reading Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_01-16-01_117.png",
+          "source": "1469485f-e07b-4e60-ac4b-0ab98cdaaa9b-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717020961080,
+      "stop": 1717020961293
+    },
+    {
+      "name": "When  I click Hobbies Music Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_01-16-01_330.png",
+          "source": "337a507a-40a8-4096-82f3-51b1ff6adff3-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717020961293,
+      "stop": 1717020961530
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1717020953936,
+  "stop": 1717020961532
+}

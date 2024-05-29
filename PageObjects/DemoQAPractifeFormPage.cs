@@ -8,6 +8,12 @@ namespace TechDemoCSharpTranzactv2.PageObjects
         private readonly By _genderMale = By.XPath("//label[@for='gender-radio-1']");
         private readonly By _userNumber = By.XPath("//input[@id='userNumber']");
         private readonly By _dateBirthButton = By.XPath("//input[@id='dateOfBirthInput']");
+        private readonly By _hobbiesSports = By.XPath("//label[@for='hobbies-checkbox-1']");
+        private readonly By _hobbiesReading = By.XPath("//label[@for='hobbies-checkbox-2']");
+        private readonly By _hobbiesMusic = By.XPath("//label[@for='hobbies-checkbox-3']");
+
+
+
 
 
 
@@ -52,6 +58,25 @@ namespace TechDemoCSharpTranzactv2.PageObjects
         public void EnterMobileNumber(string number)
         {
             SendText(_userNumber,number);
+        }
+
+         public void ClickHobbiesSportsButton()
+        {
+            ScrollToElement(_hobbiesSports);
+            Click(_hobbiesSports);
+            WaitForPageToBeLoaded();
+        }
+
+         public void ClickHobbiesReadingButton()
+        {
+            Click(_hobbiesReading);
+            WaitForPageToBeLoaded();
+        }
+
+         public void ClickHobbiesMusicButton()
+        {
+            Click(_hobbiesMusic);
+            WaitForPageToBeLoaded();
         }
 
 

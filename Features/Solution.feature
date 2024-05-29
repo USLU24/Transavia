@@ -20,6 +20,9 @@ Scenario: DemoQA Practice Form page
     When I enter Mail as "muharrem.uslu@commencis.com" for Student Registration Form
     When I click Gender Male Button
     When I enter Mobile Number as "0123456789" for Student Registration Form
+    When I click Hobbies Sports Button
+    When I click Hobbies Reading Button
+    When I click Hobbies Music Button
 
 
 

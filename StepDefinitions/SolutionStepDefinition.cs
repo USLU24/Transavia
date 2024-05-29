@@ -170,6 +170,30 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
             _util.TakeScreenshot(_driver);
         }
 
+         [When(@"I click Hobbies Sports Button")]
+        public void IClickHobbiesSportsButton()
+        {
+            _demoqapractifeformpage.ClickHobbiesSportsButton();
+
+            _util.TakeScreenshot(_driver);
+        }
+
+        [When(@"I click Hobbies Reading Button")]
+        public void IClickHobbiesReadingButton()
+        {
+            _demoqapractifeformpage.ClickHobbiesReadingButton();
+
+            _util.TakeScreenshot(_driver);
+        }
+
+        [When(@"I click Hobbies Music Button")]
+        public void IClickHobbiesMusicButton()
+        {
+            _demoqapractifeformpage.ClickHobbiesMusicButton();
+
+            _util.TakeScreenshot(_driver);
+        }
+
 
 
 
