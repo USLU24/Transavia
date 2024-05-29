@@ -7,6 +7,9 @@ namespace TechDemoCSharpTranzactv2.PageObjects
         private readonly By _userEmail = By.XPath("//input[@id='userEmail']");
         private readonly By _genderMale = By.XPath("//label[@for='gender-radio-1']");
         private readonly By _userNumber = By.XPath("//input[@id='userNumber']");
+        private readonly By _dateBirthButton = By.XPath("//input[@id='dateOfBirthInput']");
+
+
 
 
 
@@ -24,7 +27,30 @@ namespace TechDemoCSharpTranzactv2.PageObjects
             Driver.Manage().Window.Maximize();
             Driver.Navigate().GoToUrl("https://demoqa.com/automation-practice-form");
         }
-        
+
+        public void EnterFirstName(String user)
+        {
+            SendText(_firstName,user);
+        }
+
+        public void EnterLastName(String user)
+        {
+            SendText(_lastName,user);
+        }
+
+        public void EnterEmail(String user)
+        {
+            SendText(_userEmail,user);
+        }
+
+         public void ClickGenderMaleButton()
+        {
+            Click(_genderMale);
+            WaitForPageToBeLoaded();
+        }
+
+
+
 
         }
 }

@@ -76,16 +76,18 @@ namespace SolutionProject.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Successful Transavia with Valid Credentials")]
+        [NUnit.Framework.DescriptionAttribute("DemoQA Practice Form page")]
         [NUnit.Framework.CategoryAttribute("Demo-A")]
-        public void SuccessfulTransaviaWithValidCredentials()
+        [NUnit.Framework.CategoryAttribute("Demo-B")]
+        public void DemoQAPracticeFormPage()
         {
             string[] tagsOfScenario = new string[] {
-                    "Demo-A"};
+                    "Demo-A",
+                    "Demo-B"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Successful Transavia with Valid Credentials", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 7
-  this.ScenarioInitialize(scenarioInfo);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("DemoQA Practice Form page", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 16
+this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
             {
@@ -94,20 +96,8 @@ namespace SolutionProject.Features
             else
             {
                 this.ScenarioStart();
-#line 13
-    testRunner.Given("I am on the  DemoQA Buttons page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-#line 14
-    testRunner.When("I click on the doubleclick button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-#line 15
-    testRunner.Then("Message \"You have done a double click\" from doubleClick", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-#line 16
-    testRunner.When("I click on the rightclick button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
 #line 17
-    testRunner.Then("Message \"You have done a right click\" from rightClick", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+    testRunner.Given("I am on the  DemoQA Practife Form page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             }
             this.ScenarioCleanup();

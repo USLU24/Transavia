@@ -12,6 +12,7 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
         // Page Object instances for different pages in the application
         private readonly TransaviaDestinationsPage _transaviadestions;
         private readonly DemoQAButtonsPage _demoqabuttonspage;
+        private readonly DemoQAPractifeFormPage _demoqapractifeformpage;
 
         private List<string> _elementTexts;
 
@@ -25,6 +26,7 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
             _driver = scenarioContext["WEBDRIVER"] as IWebDriver;
             _transaviadestions = new TransaviaDestinationsPage(_driver);
             _demoqabuttonspage=new DemoQAButtonsPage(_driver);
+            _demoqapractifeformpage=new DemoQAPractifeFormPage(_driver);
         }
 
         // The rest of the methods in the class are SpecFlow step definitions. Each method corresponds to a step in the Gherkin feature file
@@ -119,6 +121,17 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
            _demoqabuttonspage.ClickRightClickButton(expectedMessage);
            _util.TakeScreenshot(_driver);
         }
+
+           [Given(@"I am on the  DemoQA Practife Form page")]
+        public void IAmOnTheDemoQAPractifeFormPage()
+        {
+            _demoqapractifeformpage.LoadDemoQAPractifeFormPage();
+
+            _util.TakeScreenshot(_driver);
+        }
+
+
+
 
         
  
