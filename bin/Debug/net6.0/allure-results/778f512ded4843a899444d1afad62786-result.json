@@ -1,0 +1,114 @@
+{
+  "uuid": "cc7594e4-3f22-4417-b8cf-b5cebcd90a5c",
+  "historyId": "437002c36899c2fb5563fc304516714d",
+  "testCaseId": "db8ac52bdfa4f9076347687995dc6c7b",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/Successful Transavia with Valid Credentials",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-A"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "Successful Transavia with Valid Credentials",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the  DemoQA Buttons page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_15-48-26_305.png",
+          "source": "eeb66532-8ece-44d8-a229-e1a274b2c8e5-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716986899837,
+      "stop": 1716986906527
+    },
+    {
+      "name": "When  I click on the doubleclick button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_15-48-26_830.png",
+          "source": "b3a72ed5-5bd4-4010-81f6-7ea8d5b3939b-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716986906528,
+      "stop": 1716986907112
+    },
+    {
+      "name": "When  I click on the rightclick button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_15-48-27_422.png",
+          "source": "ae907ce9-a632-476b-9150-a4ad7ae99f48-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716986907113,
+      "stop": 1716986907690
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1716986899825,
+  "stop": 1716986907692
+}

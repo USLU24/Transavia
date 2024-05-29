@@ -11,3 +11,7 @@ This is the BDD Cucumber feature file for the solution
    # When I count the texts of sibling div elements
    # Then I print the count of texts of sibling div elements
     Given I am on the  DemoQA Buttons page
+    When I click on the doubleclick button
+    When I click on the rightclick button
+    
+

@@ -97,6 +97,12 @@ namespace SolutionProject.Features
 #line 13
     testRunner.Given("I am on the  DemoQA Buttons page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
+#line 14
+    testRunner.When("I click on the doubleclick button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 15
+    testRunner.When("I click on the rightclick button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
             }
             this.ScenarioCleanup();
         }

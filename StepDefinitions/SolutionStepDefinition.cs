@@ -56,6 +56,25 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
             _util.TakeScreenshot(_driver);
         }
 
+    
+          [When(@"I click on the doubleclick button")]
+        public void IClickDoublecClickButton()
+        {
+            _demoqabuttonspage.ClickDoubleClickMeButton();
+
+            _util.TakeScreenshot(_driver);
+        }
+
+          [When(@"I click on the rightclick button")]
+        public void IClickRightClickButton()
+        {
+            _demoqabuttonspage.ClickRightClickMeButton();
+
+            _util.TakeScreenshot(_driver);
+        }
+
+          
+
             [When(@"I click on the World Icon button")]
         public void IClickWorldIconButton()
         {

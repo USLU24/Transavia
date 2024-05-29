@@ -1,0 +1,43 @@
+{
+  "uuid": "399edd0f-ad43-4262-861f-3977b0dc1160",
+  "children": [
+    "cc7594e4-3f22-4417-b8cf-b5cebcd90a5c"
+  ],
+  "befores": [
+    {
+      "name": "BeforeScenario [10000]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1716986898545,
+      "stop": 1716986899818
+    }
+  ],
+  "afters": [
+    {
+      "name": "AfterScenario [10000]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1716986907695,
+      "stop": 1716986907792
+    }
+  ],
+  "links": [],
+  "start": 1716986898544,
+  "stop": 1716986907799
+}
