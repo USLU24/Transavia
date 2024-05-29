@@ -1,4 +1,4 @@
-# Tech Demo for SpecFlow C# Muharrem USLU
+# Demo for SpecFlow C# Muharrem USLU
 
 [![pages-build-deployment](https://github.com/jahirmedinacs/Tech-Demo-CSharp-Tranzact/actions/workflows/pages/pages-build-deployment/badge.svg?branch=WebReport)](https://github.com/jahirmedinacs/Tech-Demo-CSharp-Tranzact/actions/workflows/pages/pages-build-deployment)
 
