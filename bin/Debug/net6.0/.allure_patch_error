@@ -1,0 +1,9 @@
+System.NotImplementedException: The method or operation is not implemented.
+   at HarmonyLib.PatchFunctions.UpdateWrapper(MethodBase original, PatchInfo patchInfo)
+   at HarmonyLib.PatchProcessor.Patch()
+   at HarmonyLib.Harmony.Patch(MethodBase original, HarmonyMethod prefix, HarmonyMethod postfix, HarmonyMethod transpiler, HarmonyMethod finalizer)
+   at Allure.SpecFlowPlugin.SelectiveRun.AllureSpecFlowPatcher.PatchRunnerFactory(Harmony patcher, MethodInfo factoryCandidate)
+   at Allure.SpecFlowPlugin.SelectiveRun.AllureSpecFlowPatcher.PatchRunnerFactories(Harmony patcher, IEnumerable`1 factoryCandidates)
+   at Allure.SpecFlowPlugin.SelectiveRun.AllureSpecFlowPatcher.InjectTestPlanCheckToTestRunner(Harmony patcher)
+   at Allure.SpecFlowPlugin.SelectiveRun.AllureSpecFlowPatcher.InjectTestPlanSupport(IUnitTestRuntimeProvider unitTestRuntimeProvider)
+   at Allure.SpecFlowPlugin.SelectiveRun.AllureSpecFlowPatcher.EnsureTestPlanSupportInjected(IUnitTestRuntimeProvider unitTestRuntimeProvider, Action`1 logError)

@@ -1,0 +1,93 @@
+{
+  "uuid": "651fe906-3dcd-44e8-868f-689eafaa4ab1",
+  "historyId": "437002c36899c2fb5563fc304516714d",
+  "testCaseId": "db8ac52bdfa4f9076347687995dc6c7b",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/Successful Transavia with Valid Credentials",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-A"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "Successful Transavia with Valid Credentials",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the  Transavia page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_00-04-35_053.png",
+          "source": "b5607b31-0dee-44a6-9862-387970fa0ed5-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716930273363,
+      "stop": 1716930275341
+    },
+    {
+      "name": "When  I click on the Book button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_00-04-35_400.png",
+          "source": "65fab67f-ee89-4a8a-af11-024c65494046-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716930275342,
+      "stop": 1716930276017
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1716930273350,
+  "stop": 1716930276019
+}

@@ -1,0 +1,136 @@
+{
+  "uuid": "3537dea7-e1f9-4a66-9af8-5c3137f1c5c7",
+  "historyId": "437002c36899c2fb5563fc304516714d",
+  "testCaseId": "db8ac52bdfa4f9076347687995dc6c7b",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/Successful Transavia with Valid Credentials",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-A"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "Successful Transavia with Valid Credentials",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Object reference not set to an instance of an object.",
+    "trace": "System.NullReferenceException: Object reference not set to an instance of an object.\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIfVisible(IWebElement element)\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\n   at TechDemoCSharpTranzactv2.PageObjects.BasePage.WaitWebElementVisibleBy(By element) in /Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/PageObjects/BasePage.cs:line 83\n   at TechDemoCSharpTranzactv2.PageObjects.BasePage.Click(By element) in /Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/PageObjects/BasePage.cs:line 56\n   at TechDemoCSharpTranzactv2.PageObjects.TransaviaDestinationsPage.ClickBookButton() in /Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/PageObjects/TransaviaDestinationsPage.cs:line 34\n   at TechDemoCSharpTranzactv2.StepDefinitions.SolutionStepDefinition.IClickOnTheBookButton() in /Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/StepDefinitions/SolutionStepDefinition.cs:line 44\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the  Transavia page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_10-19-28_855.png",
+          "source": "70ae5b48-a3b5-4619-83a7-31cde774dab2-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716967168154,
+      "stop": 1716967169024
+    },
+    {
+      "name": "When  I click on the Book button",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Object reference not set to an instance of an object.",
+        "trace": "System.NullReferenceException: Object reference not set to an instance of an object.\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIfVisible(IWebElement element)\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\n   at TechDemoCSharpTranzactv2.PageObjects.BasePage.WaitWebElementVisibleBy(By element) in /Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/PageObjects/BasePage.cs:line 83\n   at TechDemoCSharpTranzactv2.PageObjects.BasePage.Click(By element) in /Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/PageObjects/BasePage.cs:line 56\n   at TechDemoCSharpTranzactv2.PageObjects.TransaviaDestinationsPage.ClickBookButton() in /Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/PageObjects/TransaviaDestinationsPage.cs:line 34\n   at TechDemoCSharpTranzactv2.StepDefinitions.SolutionStepDefinition.IClickOnTheBookButton() in /Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/StepDefinitions/SolutionStepDefinition.cs:line 44\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1716967169025,
+      "stop": 1716967174692
+    },
+    {
+      "name": "When  I click on the World Icon button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1716967174692,
+      "stop": 1716967174693
+    },
+    {
+      "name": "When  I count the texts of sibling div elements",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1716967174695,
+      "stop": 1716967174695
+    },
+    {
+      "name": "Then  I print the count of texts of sibling div elements",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1716967174695,
+      "stop": 1716967174695
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1716967168146,
+  "stop": 1716967174699
+}

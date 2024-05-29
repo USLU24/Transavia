@@ -1,0 +1,324 @@
+{
+  "uuid": "92739b15-a283-44f7-b099-430dbf6c7032",
+  "historyId": "6270173f5b28ac5c3d1a9f1e34d8b8f0",
+  "testCaseId": "27140a0871be7b7c073e949e82900089",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/Happy Path Workflow",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-C"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "Happy Path Workflow",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the SauceDemo login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-04_573.png",
+          "source": "bf98952c-6448-4aa7-8c2c-69eb82718104-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915843599,
+      "stop": 1716915844704
+    },
+    {
+      "name": "When  I enter Username as \"standard_user\" and Password as \"secret_sauce\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-04_872.png",
+          "source": "89a115c3-e46d-4b5d-bf08-70e0dcd9d9e3-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915844704,
+      "stop": 1716915845005
+    },
+    {
+      "name": "When  I click on the Login button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-05_069.png",
+          "source": "750eb0a5-3853-4fe8-942a-129be80b7de8-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915845005,
+      "stop": 1716915845234
+    },
+    {
+      "name": "Then  I should see redirected to the home page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-05_237.png",
+          "source": "2ccf318f-00a1-4c82-81e0-c1fbf011869d-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915845234,
+      "stop": 1716915845381
+    },
+    {
+      "name": "When  I add \"Sauce Labs Bike Light\" to the cart from the Products page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-05_422.png",
+          "source": "14bd2e89-7bc6-493f-9bb1-a7e59488585b-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915845381,
+      "stop": 1716915845578
+    },
+    {
+      "name": "Then  I click on the cart icon on Products Page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-05_616.png",
+          "source": "75960e15-f845-4fbd-9196-9e4de645ebb3-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915845578,
+      "stop": 1716915845731
+    },
+    {
+      "name": "When  I click on \"Checkout\" on the Cart page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-05_769.png",
+          "source": "365d5ed5-6cea-4457-9b60-e0dcfc3930fc-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915845731,
+      "stop": 1716915845877
+    },
+    {
+      "name": "Then  I fill the checkout information with random data",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-06_032.png",
+          "source": "0c2d5232-3191-40b2-859b-02aa79640e2f-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915845877,
+      "stop": 1716915846145
+    },
+    {
+      "name": "Then  I click on continue button on checkout page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-06_194.png",
+          "source": "bd17614f-e755-48f4-b897-15d9dc90a22d-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915846145,
+      "stop": 1716915846311
+    },
+    {
+      "name": "Then  I click on Finish on checkout overview page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-06_349.png",
+          "source": "1fb25c38-63db-4a29-abd5-3ec8df939f00-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915846311,
+      "stop": 1716915846466
+    },
+    {
+      "name": "Then  I click on menu icon on top left of the header",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-06_508.png",
+          "source": "df446358-9cee-4771-bc0d-86b1a2b9f2d6-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915846466,
+      "stop": 1716915846638
+    },
+    {
+      "name": "Then  I click on \"Logout\" button on the displayed menu",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-06_683.png",
+          "source": "4e6e0a01-a397-40b3-b047-3e9c5dcc9b46-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915846638,
+      "stop": 1716915846804
+    },
+    {
+      "name": "Then  I validate I had logged out successfully",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-06_806.png",
+          "source": "b57efba9-768d-4465-9c68-77cf0c7ad33a-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915846804,
+      "stop": 1716915846910
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1716915843599,
+  "stop": 1716915846910
+}

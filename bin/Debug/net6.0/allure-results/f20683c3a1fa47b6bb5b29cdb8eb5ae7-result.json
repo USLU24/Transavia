@@ -1,0 +1,723 @@
+{
+  "uuid": "c1d89085-6a7d-4a9d-931a-cbeabdb1b544",
+  "historyId": "a2dafa016ec46c2ea74ce89f002c359a",
+  "testCaseId": "6cae58406857f74e7d2134e62d2e28cc",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/Multiple Scenarios Workflow",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-D"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "Multiple Scenarios Workflow",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the SauceDemo login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-16_247.png",
+          "source": "ea0ddd03-4ce9-4edb-9ab0-bea960390c62-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915855306,
+      "stop": 1716915856371
+    },
+    {
+      "name": "When  I enter Username as \"standard_user\" and Password as \"secret_sauce\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-16_545.png",
+          "source": "c53ff188-65bc-479f-b127-51e9580b2c37-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915856372,
+      "stop": 1716915856679
+    },
+    {
+      "name": "When  I click on the Login button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-16_732.png",
+          "source": "54ce6be7-0c59-4367-b256-eaee9fc49d99-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915856679,
+      "stop": 1716915856916
+    },
+    {
+      "name": "Then  I should see redirected to the home page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-16_918.png",
+          "source": "907696a1-5603-4ae4-bf69-242c98f8950e-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915856916,
+      "stop": 1716915857077
+    },
+    {
+      "name": "When  I change the Product Sort to \"Price (low to high)\" on the Products page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-17_228.png",
+          "source": "d46eac40-930c-4017-8231-22c4f397ac5c-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915857077,
+      "stop": 1716915857395
+    },
+    {
+      "name": "Then  Verify the displayed name on the sort filter is \"Price (low to high)\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-17_405.png",
+          "source": "9cb03a7e-197a-4d45-890d-5f9d8834276f-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915857395,
+      "stop": 1716915857569
+    },
+    {
+      "name": "Then  Verify prices from products are in ascending order",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-17_610.png",
+          "source": "e03fe031-acc2-4922-8e00-607d549cf2d1-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915857569,
+      "stop": 1716915857762
+    },
+    {
+      "name": "When  I add \"Sauce Labs Fleece Jacket\" to the cart from the Products page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-17_793.png",
+          "source": "26817102-1a48-4758-82cb-9ecca9cc2085-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915857762,
+      "stop": 1716915857980
+    },
+    {
+      "name": "Then  I check the Add button is not displayed for product \"Sauce Labs Fleece Jacket\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-18_493.png",
+          "source": "99305f21-6b2f-4e31-8d8c-bf334c7ac059-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915857980,
+      "stop": 1716915858688
+    },
+    {
+      "name": "When  I add \"Sauce Labs Onesie\" to the cart from the Products page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-18_720.png",
+          "source": "c3b00023-279b-4a5f-b9c7-0a6f0fed17b3-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915858688,
+      "stop": 1716915858917
+    },
+    {
+      "name": "Then  Verify the Remove button is enabled for product \"Sauce Labs Fleece Jacket\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-18_931.png",
+          "source": "fe601656-a5c9-48c8-be91-27cabc605386-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915858917,
+      "stop": 1716915859115
+    },
+    {
+      "name": "Then  Verify the Remove button is enabled for product \"Sauce Labs Onesie\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-19_128.png",
+          "source": "63dc3835-3ccc-4051-9c32-18f0c4571265-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915859115,
+      "stop": 1716915859315
+    },
+    {
+      "name": "Then  I save the price of product \"Sauce Labs Fleece Jacket\" from Product page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-19_339.png",
+          "source": "a3b4a998-aa52-4ea1-8dbb-6a6fdd140867-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915859315,
+      "stop": 1716915859516
+    },
+    {
+      "name": "Then  I save the price of product \"Sauce Labs Onesie\" from Product page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-19_539.png",
+          "source": "d1246325-d074-4ea9-b177-710f9a78a205-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915859516,
+      "stop": 1716915859718
+    },
+    {
+      "name": "Then  Verify the value from cart is \"2\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-19_727.png",
+          "source": "56eddc83-a7e5-4ba1-bf66-c21cf8c46153-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915859718,
+      "stop": 1716915859917
+    },
+    {
+      "name": "Then  I click on the cart icon on Products Page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-19_950.png",
+          "source": "70bb36ec-1adb-4307-b184-0d83cf1f070a-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915859917,
+      "stop": 1716915860083
+    },
+    {
+      "name": "Then  I save the price of product \"Sauce Labs Fleece Jacket\" from Cart page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-20_106.png",
+          "source": "5abc9015-b330-4ffb-bbe7-fa075b83455e-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915860083,
+      "stop": 1716915860218
+    },
+    {
+      "name": "Then  I save the price of product \"Sauce Labs Onesie\" from Cart page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-20_244.png",
+          "source": "e4aca1c3-a921-46ee-a4ef-5eb0d08db817-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915860218,
+      "stop": 1716915860367
+    },
+    {
+      "name": "Then  Verify prices captured from Products page are the same as Cart page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-20_368.png",
+          "source": "2a76346c-7cab-430a-ad94-af0c1e132637-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915860367,
+      "stop": 1716915860483
+    },
+    {
+      "name": "Then  I remove the product \"Sauce Labs Onesie\" on the Cart page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-20_513.png",
+          "source": "44a337db-7178-476e-b920-874074018d80-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915860483,
+      "stop": 1716915860632
+    },
+    {
+      "name": "Then  I capture the quantity of items added to cart from \"Sauce Labs Fleece Jacket\" on the Cart page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-20_647.png",
+          "source": "0d21c84d-53b4-4f08-9d57-fe3b1703c0f2-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915860632,
+      "stop": 1716915860765
+    },
+    {
+      "name": "Then  I capture the value of cart from the Cart page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-20_776.png",
+          "source": "11f2487b-50cc-4ba0-ac7e-ba6f18598f9d-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915860765,
+      "stop": 1716915860897
+    },
+    {
+      "name": "Then  Verify quantity and value are the same as captured on Cart page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-20_897.png",
+          "source": "c022cd3f-7362-4db6-b8d2-06672f8d4fde-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915860897,
+      "stop": 1716915861014
+    },
+    {
+      "name": "When  I click on \"Checkout\" on the Cart page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-21_046.png",
+          "source": "fe4ca33b-b322-4991-99d5-83dfaeab1204-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915861014,
+      "stop": 1716915861160
+    },
+    {
+      "name": "Then  I fill the checkout information with random data",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-21_298.png",
+          "source": "b89bb38c-3a12-4417-81d7-17204eec8c1b-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915861160,
+      "stop": 1716915861410
+    },
+    {
+      "name": "Then  I click on continue button on checkout page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-21_456.png",
+          "source": "837e5488-eb7b-4a51-984a-efe8c78804a2-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915861410,
+      "stop": 1716915861580
+    },
+    {
+      "name": "Then  Verify item total is same first product price captured",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-21_594.png",
+          "source": "f25046e5-a3af-4de7-876e-1ac6a0511e00-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915861580,
+      "stop": 1716915861715
+    },
+    {
+      "name": "Then  I click on Finish on checkout overview page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-21_747.png",
+          "source": "52be7046-3081-4aa0-97d8-ddb8c0566b98-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915861715,
+      "stop": 1716915861880
+    },
+    {
+      "name": "Then  Capture message \"Thank you for your order!\" from checkout complete page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-21_902.png",
+          "source": "e581fbf7-cbb9-43a9-acdd-1ef2c6c1cd37-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915861880,
+      "stop": 1716915862013
+    },
+    {
+      "name": "Then  I click on menu icon on top left of the header",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-22_050.png",
+          "source": "43fd37c0-69d5-4283-8868-1a7cc00c570f-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915862013,
+      "stop": 1716915862171
+    },
+    {
+      "name": "Then  I click on \"Logout\" button on the displayed menu",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-22_211.png",
+          "source": "da9ea38e-d4d3-46a4-8db5-8f5394241f9a-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915862171,
+      "stop": 1716915862329
+    },
+    {
+      "name": "Then  I validate I had logged out successfully",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-04-22_330.png",
+          "source": "7921e2e0-bdc6-4268-b6e7-ca30466ae408-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716915862329,
+      "stop": 1716915862445
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1716915855306,
+  "stop": 1716915862445
+}

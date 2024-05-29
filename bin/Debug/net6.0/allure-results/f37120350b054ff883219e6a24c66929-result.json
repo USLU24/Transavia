@@ -1,0 +1,135 @@
+{
+  "uuid": "a8e3e259-d4b8-4f1e-87dc-80c76e1807e2",
+  "historyId": "cb94e34e306b37ae00fd2a7155cb24e8",
+  "testCaseId": "4d198723294fda12b7fb3ffb15610db2",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/Failed Login with Locked User",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-B"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "Failed Login with Locked User",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the SauceDemo login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_17-30-12_328.png",
+          "source": "aa618533-1fb1-4da0-a18a-9befc02e6c72-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716906610198,
+      "stop": 1716906612546
+    },
+    {
+      "name": "When  I enter Username as \"locked_out_user\" and Password as \"secret_sauce\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_17-30-12_743.png",
+          "source": "2b60f994-3644-488d-98f0-930227402ff4-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716906612547,
+      "stop": 1716906612861
+    },
+    {
+      "name": "Then  I click on the Login button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_17-30-12_924.png",
+          "source": "b355d19a-463d-4045-a71f-34dd21fb265a-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716906612862,
+      "stop": 1716906613032
+    },
+    {
+      "name": "Then  I should get an error message indicating the user is locked",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_17-30-13_073.png",
+          "source": "0cdc2a1f-08a3-49a6-819c-cb089ae3e674-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716906613033,
+      "stop": 1716906613169
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1716906610189,
+  "stop": 1716906613170
+}

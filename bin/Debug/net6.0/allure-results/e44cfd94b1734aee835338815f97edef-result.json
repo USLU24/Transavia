@@ -1,0 +1,114 @@
+{
+  "uuid": "00a1b98d-d587-4fb0-a09e-c733e34e14d9",
+  "historyId": "437002c36899c2fb5563fc304516714d",
+  "testCaseId": "db8ac52bdfa4f9076347687995dc6c7b",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/Successful Transavia with Valid Credentials",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-A"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "Successful Transavia with Valid Credentials",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the  Transavia page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_00-12-43_950.png",
+          "source": "e0943df7-83e7-4591-8293-4f608eef48b7-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716930762423,
+      "stop": 1716930764214
+    },
+    {
+      "name": "When  I click on the Book button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_00-12-44_279.png",
+          "source": "593bd4e7-a2c2-481f-be57-3a5f9eb5db57-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716930764215,
+      "stop": 1716930764521
+    },
+    {
+      "name": "When  I click on the World Icon button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_00-12-44_551.png",
+          "source": "4477536f-5d95-44c2-9625-f105fb4fd5c7-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716930764521,
+      "stop": 1716930764797
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1716930762406,
+  "stop": 1716930764798
+}

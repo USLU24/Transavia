@@ -1,0 +1,135 @@
+{
+  "uuid": "240b696f-a140-45e9-bdfc-6e7246cec575",
+  "historyId": "8fe64a2d0980dc98e6e0ed8db559a4b3",
+  "testCaseId": "a9f7cbabb6a05dd4c8662fb0943bba68",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/Successful Login with Valid Credentials",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-A"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "Successful Login with Valid Credentials",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the SauceDemo login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-24-55_337.png",
+          "source": "07416ca1-bf58-41ea-b773-4e4275575eb9-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716917094290,
+      "stop": 1716917095483
+    },
+    {
+      "name": "When  I enter Username as \"standard_user\" and Password as \"secret_sauce\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-24-55_626.png",
+          "source": "b7dbb8bb-0c23-4191-a8ad-92c1edb80987-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716917095483,
+      "stop": 1716917095763
+    },
+    {
+      "name": "When  I click on the Login button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-24-55_812.png",
+          "source": "219eab6d-6aee-4000-bd30-cf7b7548416c-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716917095763,
+      "stop": 1716917095976
+    },
+    {
+      "name": "Then  I should see redirected to the home page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-24-55_978.png",
+          "source": "8113ef03-69a8-48ec-91f4-d9f3b13772b7-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716917095977,
+      "stop": 1716917096159
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1716917094290,
+  "stop": 1716917096159
+}

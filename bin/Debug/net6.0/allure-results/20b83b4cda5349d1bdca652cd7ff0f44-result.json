@@ -1,0 +1,151 @@
+{
+  "uuid": "075f2fa3-0c75-4092-803f-24025e59b00e",
+  "historyId": "5f1fd21b9eaa1ca45d62e3c609a088c7",
+  "testCaseId": "fd7e86d5fc5725462ba6747aa05ab5ba",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/Login with multiple sets of credentials",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-AB"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "Login with multiple sets of credentials",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the SauceDemo login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-24-44_534.png",
+          "source": "2fe2e88c-1484-4b32-b833-f2a38522b893-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716917083274,
+      "stop": 1716917084659
+    },
+    {
+      "name": "When  I enter Username as \"invalid_user\" and Password as \"secret_sauce\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-24-44_806.png",
+          "source": "37077cfe-ae8a-4717-8466-a2d5db1a7bdf-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716917084659,
+      "stop": 1716917084930
+    },
+    {
+      "name": "Then  I click on the Login button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-24-44_975.png",
+          "source": "81d38dcb-0f81-42a0-8fca-32dc2c806d12-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716917084930,
+      "stop": 1716917085079
+    },
+    {
+      "name": "Then  I should see error message indicating invalid credentials",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-28_20-24-45_094.png",
+          "source": "92705222-fb5e-41e7-9077-d727cc742924-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716917085079,
+      "stop": 1716917085197
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "\"\\\"invalid_user\\\"\"",
+      "excluded": false
+    },
+    {
+      "name": "password",
+      "value": "\"\\\"secret_sauce\\\"\"",
+      "excluded": false
+    },
+    {
+      "name": "expected_result",
+      "value": "\"error message indicating invalid credentials\"",
+      "excluded": false
+    }
+  ],
+  "start": 1716917083274,
+  "stop": 1716917085197
+}

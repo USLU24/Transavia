@@ -1,0 +1,136 @@
+{
+  "uuid": "94453f40-2491-4069-8726-82869c16826c",
+  "historyId": "437002c36899c2fb5563fc304516714d",
+  "testCaseId": "db8ac52bdfa4f9076347687995dc6c7b",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/Successful Transavia with Valid Credentials",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-A"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "Successful Transavia with Valid Credentials",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Timed out after 90 seconds -> no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@data-testid='topnav-submenu-book']\"}\n  (Session info: chrome=125.0.6422.78); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+    "trace": "OpenQA.Selenium.WebDriverTimeoutException: Timed out after 90 seconds\n ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@data-testid='topnav-submenu-book']\"}\n  (Session info: chrome=125.0.6422.78); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   --- End of inner exception stack trace ---\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\n   at TechDemoCSharpTranzactv2.PageObjects.BasePage.WaitWebElementVisibleBy(By element) in /Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/PageObjects/BasePage.cs:line 83\n   at TechDemoCSharpTranzactv2.PageObjects.BasePage.Click(By element) in /Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/PageObjects/BasePage.cs:line 56\n   at TechDemoCSharpTranzactv2.PageObjects.TransaviaDestinationsPage.ClickBookButton() in /Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/PageObjects/TransaviaDestinationsPage.cs:line 34\n   at TechDemoCSharpTranzactv2.StepDefinitions.SolutionStepDefinition.IClickOnTheBookButton() in /Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/StepDefinitions/SolutionStepDefinition.cs:line 44\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the  Transavia page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_10-30-01_380.png",
+          "source": "aa0582ab-ac28-45bd-a5e9-72f06e292341-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1716967800575,
+      "stop": 1716967801526
+    },
+    {
+      "name": "When  I click on the Book button",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Timed out after 90 seconds -> no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@data-testid='topnav-submenu-book']\"}\n  (Session info: chrome=125.0.6422.78); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+        "trace": "OpenQA.Selenium.WebDriverTimeoutException: Timed out after 90 seconds\n ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@data-testid='topnav-submenu-book']\"}\n  (Session info: chrome=125.0.6422.78); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   --- End of inner exception stack trace ---\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\n   at TechDemoCSharpTranzactv2.PageObjects.BasePage.WaitWebElementVisibleBy(By element) in /Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/PageObjects/BasePage.cs:line 83\n   at TechDemoCSharpTranzactv2.PageObjects.BasePage.Click(By element) in /Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/PageObjects/BasePage.cs:line 56\n   at TechDemoCSharpTranzactv2.PageObjects.TransaviaDestinationsPage.ClickBookButton() in /Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/PageObjects/TransaviaDestinationsPage.cs:line 34\n   at TechDemoCSharpTranzactv2.StepDefinitions.SolutionStepDefinition.IClickOnTheBookButton() in /Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/StepDefinitions/SolutionStepDefinition.cs:line 44\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1716967801527,
+      "stop": 1716967891587
+    },
+    {
+      "name": "When  I click on the World Icon button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1716967891587,
+      "stop": 1716967891587
+    },
+    {
+      "name": "When  I count the texts of sibling div elements",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1716967891588,
+      "stop": 1716967891588
+    },
+    {
+      "name": "Then  I print the count of texts of sibling div elements",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1716967891588,
+      "stop": 1716967891588
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1716967800571,
+  "stop": 1716967891591
+}
