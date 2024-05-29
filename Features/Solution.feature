@@ -15,7 +15,10 @@ This is the BDD Cucumber feature file for the solution
     @Demo-B
 Scenario: DemoQA Practice Form page
     Given I am on the  DemoQA Practife Form page
-    
+    When I enter Name as "Muharrem" for Student Registration Form
+
+
+
    
 
 

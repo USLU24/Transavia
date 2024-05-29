@@ -1,0 +1,97 @@
+{
+  "uuid": "ce577e3e-06c8-4b2e-90d0-1012ab2ee394",
+  "historyId": "33ce9ffda15610cf499d5d26de365844",
+  "testCaseId": "d6a9d042fffc8c42ba080b3c00ce2faf",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/DemoQA Practice Form page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-A"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-B"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "DemoQA Practice Form page",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the  DemoQA Practife Form page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_00-33-25_041.png",
+          "source": "f98ff8bb-be8b-4d55-b972-ec4d64d7a47b-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717018391912,
+      "stop": 1717018405224
+    },
+    {
+      "name": "When  I enter Name as \"Muharrem\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_00-33-25_575.png",
+          "source": "2f4dad27-57af-4860-83a0-87aa8c80eeb5-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717018405225,
+      "stop": 1717018405753
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1717018391908,
+  "stop": 1717018405753
+}

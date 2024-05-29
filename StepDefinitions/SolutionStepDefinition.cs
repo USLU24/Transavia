@@ -130,6 +130,14 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
             _util.TakeScreenshot(_driver);
         }
 
+          [When(@"I enter Name as ""([^""]*)"" for Student Registration Form")]
+        public void IEnterFirsName(string user)
+        {
+           _demoqapractifeformpage.EnterFirstName(user);
+
+            _util.TakeScreenshot(_driver);
+        }
+
 
 
 

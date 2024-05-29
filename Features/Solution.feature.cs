@@ -99,6 +99,9 @@ this.ScenarioInitialize(scenarioInfo);
 #line 17
     testRunner.Given("I am on the  DemoQA Practife Form page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
+#line 18
+    testRunner.When("I enter Name as \"Muharrem\" for Student Registration Form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
             }
             this.ScenarioCleanup();
         }

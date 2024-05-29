@@ -28,12 +28,13 @@ namespace TechDemoCSharpTranzactv2.PageObjects
             Driver.Navigate().GoToUrl("https://demoqa.com/automation-practice-form");
         }
 
-        public void EnterFirstName(String user)
+        public void EnterFirstName(string user)
         {
+            WaitWebElementVisibleBy(_firstName,TimeSpan.FromSeconds(5));
             SendText(_firstName,user);
         }
 
-        public void EnterLastName(String user)
+        public void EnterLastName(string user)
         {
             SendText(_lastName,user);
         }
