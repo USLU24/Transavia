@@ -19,6 +19,7 @@ Scenario: DemoQA Practice Form page
     When I enter Surname as "Uslu" for Student Registration Form
     When I enter Mail as "muharrem.uslu@commencis.com" for Student Registration Form
     When I click Gender Male Button
+    When I enter Mobile Number as "0123456789" for Student Registration Form
 
 
 

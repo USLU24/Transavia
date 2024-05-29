@@ -111,6 +111,9 @@ this.ScenarioInitialize(scenarioInfo);
 #line 21
     testRunner.When("I click Gender Male Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
+#line 22
+    testRunner.When("I enter Mobile Number as \"0123456789\" for Student Registration Form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
             }
             this.ScenarioCleanup();
         }

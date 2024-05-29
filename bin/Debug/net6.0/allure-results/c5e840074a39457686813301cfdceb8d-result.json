@@ -1,0 +1,181 @@
+{
+  "uuid": "8a0a3844-fe39-4ac1-a652-ecac9e318698",
+  "historyId": "33ce9ffda15610cf499d5d26de365844",
+  "testCaseId": "d6a9d042fffc8c42ba080b3c00ce2faf",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/DemoQA Practice Form page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-A"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-B"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "DemoQA Practice Form page",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the  DemoQA Practife Form page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_01-02-50_583.png",
+          "source": "6110a55c-db20-4096-9160-517d1c4abda3-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717020152601,
+      "stop": 1717020170854
+    },
+    {
+      "name": "When  I enter Name as \"Muharrem\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_01-02-50_962.png",
+          "source": "37c95209-7442-45a7-bb4a-8a1a04600cb2-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717020170854,
+      "stop": 1717020171849
+    },
+    {
+      "name": "When  I enter Surname as \"Uslu\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_01-02-51_882.png",
+          "source": "da0110ee-f1c7-42ea-b328-b794ec028bd9-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717020171850,
+      "stop": 1717020172190
+    },
+    {
+      "name": "When  I enter Mail as \"muharrem.uslu@commencis.com\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_01-02-52_232.png",
+          "source": "0f2de6c3-1e69-4681-9c03-c639d2f39ed2-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717020172190,
+      "stop": 1717020172415
+    },
+    {
+      "name": "When  I click Gender Male Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_01-02-52_462.png",
+          "source": "80e5b1d3-5ee7-40c2-aaa0-e7410b418c14-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717020172415,
+      "stop": 1717020172655
+    },
+    {
+      "name": "When  I enter Mobile Number as \"0123456789\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_01-02-52_699.png",
+          "source": "dc64ed8a-6e95-403c-af15-7060b936fee0-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717020172655,
+      "stop": 1717020172890
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1717020152595,
+  "stop": 1717020172891
+}

@@ -162,6 +162,14 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
             _util.TakeScreenshot(_driver);
         }
 
+         [When(@"I enter Mobile Number as ""([^""]*)"" for Student Registration Form")]
+            public void IEnterMobileNumber(string number)
+           {
+           _demoqapractifeformpage.EnterMobileNumber(number);
+
+            _util.TakeScreenshot(_driver);
+        }
+
 
 
 

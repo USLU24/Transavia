@@ -49,6 +49,11 @@ namespace TechDemoCSharpTranzactv2.PageObjects
             WaitForPageToBeLoaded();
         }
 
+        public void EnterMobileNumber(string number)
+        {
+            SendText(_userNumber,number);
+        }
+
 
 
 
