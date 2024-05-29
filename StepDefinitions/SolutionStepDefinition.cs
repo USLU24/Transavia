@@ -193,6 +193,18 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
 
             _util.TakeScreenshot(_driver);
         }
+        
+        [When(@"I enter Current Address as ""([^""]*)"" for Student Registration Form")]
+        public void IEnterCurrentAddress(string address)
+        {
+           _demoqapractifeformpage.EnterCurrentAddress(address);
+
+            _util.TakeScreenshot(_driver);
+        }
+
+
+
+        
 
 
 

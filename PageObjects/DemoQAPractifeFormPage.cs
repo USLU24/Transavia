@@ -11,6 +11,8 @@ namespace TechDemoCSharpTranzactv2.PageObjects
         private readonly By _hobbiesSports = By.XPath("//label[@for='hobbies-checkbox-1']");
         private readonly By _hobbiesReading = By.XPath("//label[@for='hobbies-checkbox-2']");
         private readonly By _hobbiesMusic = By.XPath("//label[@for='hobbies-checkbox-3']");
+        private readonly By _currentAddress = By.XPath("//textarea[@id='currentAddress']");
+
 
 
 
@@ -57,6 +59,8 @@ namespace TechDemoCSharpTranzactv2.PageObjects
 
         public void EnterMobileNumber(string number)
         {
+            ScrollToElement(_userNumber);
+
             SendText(_userNumber,number);
         }
 
@@ -77,6 +81,11 @@ namespace TechDemoCSharpTranzactv2.PageObjects
         {
             Click(_hobbiesMusic);
             WaitForPageToBeLoaded();
+        }
+
+        public void EnterCurrentAddress(string address)
+        {
+            SendText(_currentAddress,address);
         }
 
 

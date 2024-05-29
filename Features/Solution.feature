@@ -17,12 +17,13 @@ Scenario: DemoQA Practice Form page
     Given I am on the  DemoQA Practife Form page
     When I enter Name as "Muharrem" for Student Registration Form
     When I enter Surname as "Uslu" for Student Registration Form
-    When I enter Mail as "muharrem.uslu@commencis.com" for Student Registration Form
+    When I enter Mail as "muharrem.uslu@example.com" for Student Registration Form
     When I click Gender Male Button
     When I enter Mobile Number as "0123456789" for Student Registration Form
     When I click Hobbies Sports Button
     When I click Hobbies Reading Button
     When I click Hobbies Music Button
+    When I enter Current Address as "Obispo Street" for Student Registration Form
 
 
 
