@@ -29,7 +29,7 @@ dotnet test "SpecFlowRun.sln"
 for the execution of a specific feature, you can use the following command:
 
 ```bash
-dotnet test "./TechDemoCSharpTranzsact.sln" --filter TestCategory=TagName
+dotnet test "SpecFlowRun.sln" --filter TestCategory=TagName
 ```
 
 ## How to generate the report
