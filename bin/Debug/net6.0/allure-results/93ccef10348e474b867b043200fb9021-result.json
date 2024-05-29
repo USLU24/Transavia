@@ -1,0 +1,135 @@
+{
+  "uuid": "de6591ff-57eb-46ef-b3ae-b33005c90320",
+  "historyId": "437002c36899c2fb5563fc304516714d",
+  "testCaseId": "db8ac52bdfa4f9076347687995dc6c7b",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/Successful Transavia with Valid Credentials",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-A"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "Successful Transavia with Valid Credentials",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the  DemoQA Buttons page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_23-18-13_173.png",
+          "source": "911fd4e9-8f18-4879-b967-2267237b5c26-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717013879633,
+      "stop": 1717013893458
+    },
+    {
+      "name": "When  I click on the doubleclick button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_23-18-14_247.png",
+          "source": "33410f77-19f5-4c35-900c-361c68df132a-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717013893458,
+      "stop": 1717013894442
+    },
+    {
+      "name": "Then  Message \"You have done a double click\" from doubleClick",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_23-18-14_476.png",
+          "source": "d8a1a326-69ee-42b1-98cb-6c4063bed072-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717013894442,
+      "stop": 1717013894664
+    },
+    {
+      "name": "When  I click on the rightclick button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_23-18-14_939.png",
+          "source": "3953fc82-364b-4e13-bfe2-6d80e71262e0-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717013894664,
+      "stop": 1717013895187
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1717013879629,
+  "stop": 1717013895188
+}

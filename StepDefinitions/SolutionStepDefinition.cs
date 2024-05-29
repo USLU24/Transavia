@@ -97,6 +97,29 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
 
         }
 
+        [Then(@"Message ""([^""]*)"" from doubleClick")]
+        public void VerifyDoubleClickMessage(string message)
+        {
+            _demoqabuttonspage.ClickDoubleClickMeButton(message);
+
+            _util.TakeScreenshot(_driver);
+        }
+
+        [Then(@"Message ""([^""]*)"" from  rightClick")]
+        public void VerifyRightClickMessage(string message)
+        {
+            _demoqabuttonspage.ClickRightClickButton(message);
+
+            _util.TakeScreenshot(_driver);
+        }
+
+        [Then(@"Message ""(.*)"" from rightClick")]
+        public void ThenMessageFromRightClick(string expectedMessage)
+        {
+           _demoqabuttonspage.ClickRightClickButton(expectedMessage);
+           _util.TakeScreenshot(_driver);
+        }
+
         
  
          }

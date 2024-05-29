@@ -37,7 +37,7 @@ namespace TechDemoCSharpTranzactv2.Hooks
                     case "Headless":
                         ChromeOptions options = new ChromeOptions();
                         options.AddArgument("--headless");
-                        options.AddArgument("--window-size=1920,1080");
+                        options.AddArgument("--window-size=2560,1440");
                         driver = new ChromeDriver(options);
                         break;
                     case "Normal":

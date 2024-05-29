@@ -12,6 +12,10 @@ This is the BDD Cucumber feature file for the solution
    # Then I print the count of texts of sibling div elements
     Given I am on the  DemoQA Buttons page
     When I click on the doubleclick button
+    Then Message "You have done a double click" from doubleClick
     When I click on the rightclick button
-    
+    Then Message "You have done a right click" from rightClick
+
+
+
 

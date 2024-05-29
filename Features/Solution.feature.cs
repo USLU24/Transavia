@@ -101,7 +101,13 @@ namespace SolutionProject.Features
     testRunner.When("I click on the doubleclick button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 15
+    testRunner.Then("Message \"You have done a double click\" from doubleClick", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 16
     testRunner.When("I click on the rightclick button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 17
+    testRunner.Then("Message \"You have done a right click\" from rightClick", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

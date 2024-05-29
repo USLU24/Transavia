@@ -156,6 +156,14 @@ namespace TechDemoCSharpTranzactv2.PageObjects
             Thread.Sleep((int)millis);
         }
 
+        public void ScrollDown()
+        {
+           IJavaScriptExecutor js = (IJavaScriptExecutor)Driver;
+           js.ExecuteScript("window.scrollTo(0, document.body.scrollHeight);");
+        }
+
+        
+
        
         // AutomationSpeed adjusts the speed of automation based on configuration.
         private void AutomationSpeed() 

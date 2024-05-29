@@ -1,0 +1,152 @@
+{
+  "uuid": "8463785f-e3a0-44e4-8189-c11466fa55f9",
+  "historyId": "437002c36899c2fb5563fc304516714d",
+  "testCaseId": "db8ac52bdfa4f9076347687995dc6c7b",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/Successful Transavia with Valid Credentials",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-A"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "Successful Transavia with Valid Credentials",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching definition found for the step 'Message \"You have done a right click\" from rightClick'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the  DemoQA Buttons page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_23-21-08_792.png",
+          "source": "ce0cfc75-e21d-471d-870d-8c4aa646797d-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717014057014,
+      "stop": 1717014069015
+    },
+    {
+      "name": "When  I click on the doubleclick button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_23-21-09_630.png",
+          "source": "288b229e-8faf-4912-af8f-b11307da99b0-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717014069016,
+      "stop": 1717014069815
+    },
+    {
+      "name": "Then  Message \"You have done a double click\" from doubleClick",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_23-21-09_849.png",
+          "source": "a7337b8f-9ef2-4b75-9f59-50b0b5a1c0cc-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717014069815,
+      "stop": 1717014070036
+    },
+    {
+      "name": "When  I click on the rightclick button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-29_23-21-10_316.png",
+          "source": "2fe83b00-252e-475a-9310-3e74abf2829e-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717014070036,
+      "stop": 1717014070543
+    },
+    {
+      "name": "Then  Message \"You have done a right click\" from rightClick",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1717014070543,
+      "stop": 1717014070566
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1717014057009,
+  "stop": 1717014070581
+}

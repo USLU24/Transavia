@@ -30,15 +30,34 @@ namespace TechDemoCSharpTranzactv2.PageObjects
 
         public void ClickDoubleClickMeButton()
         {
-            DoubleClick(_doubleClickButton);
+            ScrollDown();
             WaitForPageToBeLoaded();
+            DoubleClick(_doubleClickButton);
         }
 
         public void ClickRightClickMeButton()
         {
-            RightClick(_rightClickButton);
             WaitForPageToBeLoaded();
+            RightClick(_rightClickButton);
         }
+
+        public void ClickDoubleClickMeButton(String message)
+        {
+            String actualMessage=GetText(_doubleClickMessage);
+             AssertElementPresent(_doubleClickMessage);
+            Assert.That(actualMessage, Is.EqualTo(message));
+
+        }
+
+         public void ClickRightClickButton(String message)
+        {
+            String actualMessage=GetText(_rightClickMessage);
+             AssertElementPresent(_rightClickMessage);
+            Assert.That(actualMessage, Is.EqualTo(message));
+
+        }
+
+
 
        
 
