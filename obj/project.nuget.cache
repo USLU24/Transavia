@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JRo1mIOxqPY=",
+  "dgSpecHash": "ZmMrcfisxdQ=",
   "success": true,
-  "projectFilePath": "/Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/SolutionProject.csproj",
+  "projectFilePath": "/Users/uslum/SpecFlow-F/specflow-framework/SolutionProject.csproj",
   "expectedPackageFiles": [
     "/Users/uslum/.nuget/packages/allure.net.commons/2.12.0/allure.net.commons.2.12.0.nupkg.sha512",
     "/Users/uslum/.nuget/packages/allure.specflow/2.12.0/allure.specflow.2.12.0.nupkg.sha512",

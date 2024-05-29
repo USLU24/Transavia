@@ -1,4 +1,4 @@
-# Tech Demo C# Tranzac
+# Tech Demo for SpecFlow C# Muharrem USLU
 
 [![pages-build-deployment](https://github.com/jahirmedinacs/Tech-Demo-CSharp-Tranzact/actions/workflows/pages/pages-build-deployment/badge.svg?branch=WebReport)](https://github.com/jahirmedinacs/Tech-Demo-CSharp-Tranzact/actions/workflows/pages/pages-build-deployment)
 
@@ -23,7 +23,7 @@ To run the tests, you need to have the dotnet core 6.0 installed on your machine
 then you can run the following command:
 
 ```bash
-dotnet test "./TechDemoCSharpTranzsact.sln"
+dotnet test "SpecFlowRun.sln"
 ```
 
 for the execution of a specific feature, you can use the following command:

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/SolutionProject.csproj": {}
+    "/Users/uslum/SpecFlow-F/specflow-framework/SolutionProject.csproj": {}
   },
   "projects": {
-    "/Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/SolutionProject.csproj": {
+    "/Users/uslum/SpecFlow-F/specflow-framework/SolutionProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/SolutionProject.csproj",
+        "projectUniqueName": "/Users/uslum/SpecFlow-F/specflow-framework/SolutionProject.csproj",
         "projectName": "SolutionProject",
-        "projectPath": "/Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/SolutionProject.csproj",
+        "projectPath": "/Users/uslum/SpecFlow-F/specflow-framework/SolutionProject.csproj",
         "packagesPath": "/Users/uslum/.nuget/packages/",
-        "outputPath": "/Users/uslum/Documents/TransaviaProject/Transavia/Tech-Demo/obj/",
+        "outputPath": "/Users/uslum/SpecFlow-F/specflow-framework/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/uslum/.nuget/NuGet/NuGet.Config"
