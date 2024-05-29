@@ -30,7 +30,6 @@ namespace TechDemoCSharpTranzactv2.PageObjects
 
         public void EnterFirstName(string user)
         {
-            WaitWebElementVisibleBy(_firstName,TimeSpan.FromSeconds(5));
             SendText(_firstName,user);
         }
 
@@ -39,9 +38,9 @@ namespace TechDemoCSharpTranzactv2.PageObjects
             SendText(_lastName,user);
         }
 
-        public void EnterEmail(String user)
+        public void EnterEmail(string mail)
         {
-            SendText(_userEmail,user);
+            SendText(_userEmail,mail);
         }
 
          public void ClickGenderMaleButton()

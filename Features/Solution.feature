@@ -16,6 +16,11 @@ This is the BDD Cucumber feature file for the solution
 Scenario: DemoQA Practice Form page
     Given I am on the  DemoQA Practife Form page
     When I enter Name as "Muharrem" for Student Registration Form
+    When I enter Surname as "Uslu" for Student Registration Form
+    When I enter Mail as "muharrem.uslu@commencis.com" for Student Registration Form
+    When I click Gender Male Button
+
+
 
 
 

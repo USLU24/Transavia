@@ -102,6 +102,15 @@ this.ScenarioInitialize(scenarioInfo);
 #line 18
     testRunner.When("I enter Name as \"Muharrem\" for Student Registration Form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
+#line 19
+    testRunner.When("I enter Surname as \"Uslu\" for Student Registration Form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 20
+    testRunner.When("I enter Mail as \"muharrem.uslu@commencis.com\" for Student Registration Form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 21
+    testRunner.When("I click Gender Male Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
             }
             this.ScenarioCleanup();
         }

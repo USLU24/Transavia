@@ -1,0 +1,118 @@
+{
+  "uuid": "3b956a62-6d23-4557-8cc9-1ec627b938ad",
+  "historyId": "33ce9ffda15610cf499d5d26de365844",
+  "testCaseId": "d6a9d042fffc8c42ba080b3c00ce2faf",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/DemoQA Practice Form page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-A"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-B"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "DemoQA Practice Form page",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the  DemoQA Practife Form page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_00-50-00_024.png",
+          "source": "82ee6e78-d427-48c3-914b-8fa73485ba28-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717019386690,
+      "stop": 1717019400240
+    },
+    {
+      "name": "When  I enter Name as \"Muharrem\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_00-50-01_293.png",
+          "source": "d2969f6a-bacf-40a4-9cdb-a849efb07148-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717019400241,
+      "stop": 1717019401608
+    },
+    {
+      "name": "When  I enter Surname as \"Uslu\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_00-50-01_638.png",
+          "source": "712ef445-bd44-4d4f-9d8f-d86e4ac46bce-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717019401608,
+      "stop": 1717019401890
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1717019386686,
+  "stop": 1717019401891
+}

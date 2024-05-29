@@ -131,9 +131,33 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
         }
 
           [When(@"I enter Name as ""([^""]*)"" for Student Registration Form")]
-        public void IEnterFirsName(string user)
+        public void IEnterFirstName(string user)
         {
            _demoqapractifeformpage.EnterFirstName(user);
+
+            _util.TakeScreenshot(_driver);
+        }
+
+         [When(@"I enter Surname as ""([^""]*)"" for Student Registration Form")]
+        public void IEnterLastName(string user)
+        {
+           _demoqapractifeformpage.EnterLastName(user);
+
+            _util.TakeScreenshot(_driver);
+        }
+
+          [When(@"I enter Mail as ""([^""]*)"" for Student Registration Form")]
+        public void IEnterEmail(string mail)
+        {
+           _demoqapractifeformpage.EnterEmail(mail);
+
+            _util.TakeScreenshot(_driver);
+        }
+
+         [When(@"I click Gender Male Button")]
+        public void IClickGenderMaleButton()
+        {
+            _demoqapractifeformpage.ClickGenderMaleButton();
 
             _util.TakeScreenshot(_driver);
         }
