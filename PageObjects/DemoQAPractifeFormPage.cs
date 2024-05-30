@@ -12,6 +12,11 @@ namespace TechDemoCSharpTranzactv2.PageObjects
         private readonly By _hobbiesReading = By.XPath("//label[@for='hobbies-checkbox-2']");
         private readonly By _hobbiesMusic = By.XPath("//label[@for='hobbies-checkbox-3']");
         private readonly By _currentAddress = By.XPath("//textarea[@id='currentAddress']");
+        private readonly By _monthSelect = By.XPath("//select[@class='react-datepicker__month-select']");
+        private readonly By __yearSelect = By.XPath("//select[@class='react-datepicker__year-select']");
+
+
+
 
 
 
@@ -87,6 +92,24 @@ namespace TechDemoCSharpTranzactv2.PageObjects
         {
             SendText(_currentAddress,address);
         }
+
+           public void ClickDateBirthButton()
+        {
+            Click(_dateBirthButton);
+            WaitForPageToBeLoaded();
+        }
+ 
+           public void SelectByVisibleTextMonth(string text )
+        {
+                WaitForPageToBeLoaded();
+                SelectByVisibleText(_monthSelect,text);
+         }
+
+              public void SelectByVisibleTextYear(string text )
+        {
+                WaitForPageToBeLoaded();
+                SelectByVisibleText(__yearSelect,text);
+         }
 
 
 

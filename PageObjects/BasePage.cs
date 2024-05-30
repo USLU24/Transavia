@@ -161,12 +161,20 @@ namespace TechDemoCSharpTranzactv2.PageObjects
            IJavaScriptExecutor js = (IJavaScriptExecutor)Driver;
            js.ExecuteScript("window.scrollTo(0, document.body.scrollHeight);");
         }
-        
+
         public void ScrollToElement(By element)
         {
             IJavaScriptExecutor js = (IJavaScriptExecutor)Driver;
             IWebElement webElement = Driver.FindElement(element);
             js.ExecuteScript("arguments[0].scrollIntoView(true);", webElement);
+        }
+
+        public void SelectByVisibleText(By element,string visibleText)
+        {
+            WaitWebElementVisibleBy(element);
+             IWebElement dropdown = Driver.FindElement(element);
+             SelectElement select = new SelectElement(dropdown);
+            select.SelectByText(visibleText);
         }
 
         

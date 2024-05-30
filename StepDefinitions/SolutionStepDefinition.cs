@@ -1,4 +1,4 @@
-using TechDemoCSharpTranzactv2.PageObjects;
+lusing TechDemoCSharpTranzactv2.PageObjects;
 
 namespace TechDemoCSharpTranzactv2.StepDefinitions
 {
@@ -198,6 +198,14 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
         public void IEnterCurrentAddress(string address)
         {
            _demoqapractifeformpage.EnterCurrentAddress(address);
+
+            _util.TakeScreenshot(_driver);
+        }
+
+         [When(@"I click Date Of Birth Button")]
+        public void IClickDateOfBirth()
+        {
+           _demoqapractifeformpage.ClickDateBirthButton();
 
             _util.TakeScreenshot(_driver);
         }

@@ -1,0 +1,266 @@
+{
+  "uuid": "b814df4b-a28f-4194-b72f-fea283770f0c",
+  "historyId": "33ce9ffda15610cf499d5d26de365844",
+  "testCaseId": "d6a9d042fffc8c42ba080b3c00ce2faf",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/DemoQA Practice Form page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-A"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-B"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "DemoQA Practice Form page",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "element click intercepted: Element <label title=\"\" for=\"hobbies-checkbox-1\" class=\"custom-control-label\">...</label> is not clickable at point (606, 12). Other element would receive the click: <div class=\"react-datepicker__day-name\">...</div>\n  (Session info: chrome=125.0.6422.78)",
+    "trace": "OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <label title=\"\" for=\"hobbies-checkbox-1\" class=\"custom-control-label\">...</label> is not clickable at point (606, 12). Other element would receive the click: <div class=\"react-datepicker__day-name\">...</div>\n  (Session info: chrome=125.0.6422.78)\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at TechDemoCSharpTranzactv2.PageObjects.BasePage.Click(By element) in /Users/uslum/SpecFlow-F/specflow-framework/PageObjects/BasePage.cs:line 62\n   at TechDemoCSharpTranzactv2.PageObjects.DemoQAPractifeFormPage.ClickHobbiesSportsButton() in /Users/uslum/SpecFlow-F/specflow-framework/PageObjects/DemoQAPractifeFormPage.cs:line 75\n   at TechDemoCSharpTranzactv2.StepDefinitions.SolutionStepDefinition.IClickHobbiesSportsButton() in /Users/uslum/SpecFlow-F/specflow-framework/StepDefinitions/SolutionStepDefinition.cs:line 176\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the  DemoQA Practife Form page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_10-11-42_233.png",
+          "source": "9649c1c6-2f0d-473f-ac07-362f7186207f-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717053088153,
+      "stop": 1717053103031
+    },
+    {
+      "name": "When  I enter Name as \"Muharrem\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_10-11-43_156.png",
+          "source": "577a1f26-0a78-418a-8b0e-93f543619e77-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717053103031,
+      "stop": 1717053103376
+    },
+    {
+      "name": "When  I enter Surname as \"Uslu\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_10-11-43_406.png",
+          "source": "5a42fed8-da55-4434-83e8-bd90eeb8f6ad-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717053103376,
+      "stop": 1717053103649
+    },
+    {
+      "name": "When  I enter Mail as \"muharrem.uslu@example.com\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_10-11-43_686.png",
+          "source": "23c3344a-7959-46f4-a92c-6cfb23480c30-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717053103649,
+      "stop": 1717053103927
+    },
+    {
+      "name": "When  I click Gender Male Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_10-11-43_982.png",
+          "source": "c8634cb7-ce82-4518-9125-a34571eb4393-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717053103927,
+      "stop": 1717053104248
+    },
+    {
+      "name": "When  I enter Mobile Number as \"0123456789\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_10-11-44_301.png",
+          "source": "66a11639-8575-432c-b9e2-c725033d420e-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717053104248,
+      "stop": 1717053104518
+    },
+    {
+      "name": "When  I click Date Of Birth Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_10-11-44_580.png",
+          "source": "4494a371-0165-4365-aa29-ee756ebbaf51-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717053104518,
+      "stop": 1717053104869
+    },
+    {
+      "name": "When  I click Hobbies Sports Button",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "element click intercepted: Element <label title=\"\" for=\"hobbies-checkbox-1\" class=\"custom-control-label\">...</label> is not clickable at point (606, 12). Other element would receive the click: <div class=\"react-datepicker__day-name\">...</div>\n  (Session info: chrome=125.0.6422.78)",
+        "trace": "OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <label title=\"\" for=\"hobbies-checkbox-1\" class=\"custom-control-label\">...</label> is not clickable at point (606, 12). Other element would receive the click: <div class=\"react-datepicker__day-name\">...</div>\n  (Session info: chrome=125.0.6422.78)\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at TechDemoCSharpTranzactv2.PageObjects.BasePage.Click(By element) in /Users/uslum/SpecFlow-F/specflow-framework/PageObjects/BasePage.cs:line 62\n   at TechDemoCSharpTranzactv2.PageObjects.DemoQAPractifeFormPage.ClickHobbiesSportsButton() in /Users/uslum/SpecFlow-F/specflow-framework/PageObjects/DemoQAPractifeFormPage.cs:line 75\n   at TechDemoCSharpTranzactv2.StepDefinitions.SolutionStepDefinition.IClickHobbiesSportsButton() in /Users/uslum/SpecFlow-F/specflow-framework/StepDefinitions/SolutionStepDefinition.cs:line 176\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1717053104869,
+      "stop": 1717053105937
+    },
+    {
+      "name": "When  I click Hobbies Reading Button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1717053105938,
+      "stop": 1717053105938
+    },
+    {
+      "name": "When  I click Hobbies Music Button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1717053105939,
+      "stop": 1717053105940
+    },
+    {
+      "name": "When  I enter Current Address as \"Obispo Street\" for Student Registration Form",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1717053105940,
+      "stop": 1717053105940
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1717053088144,
+  "stop": 1717053105943
+}
