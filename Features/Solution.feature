@@ -29,6 +29,10 @@ Scenario: DemoQA Practice Form page
     When I click Hobbies Reading Button
     When I click Hobbies Music Button
     When I enter Current Address as "Obispo Street" for Student Registration Form
+    When I click State  Button
+    When I click Selected State Button
+
+
 
 
 

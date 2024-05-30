@@ -15,6 +15,17 @@ namespace TechDemoCSharpTranzactv2.PageObjects
         private readonly By _monthSelect = By.XPath("//select[@class='react-datepicker__month-select']");
         private readonly By __yearSelect = By.XPath("//select[@class='react-datepicker__year-select']");
         private By _daySelect = By.ClassName("react-datepicker__day");
+        private readonly By __selectState = By.XPath("(//div[@class=' css-1wa3eu0-placeholder'])[1]]");
+        private readonly By __uttarPradesh = By.XPath("//*[@id='react-select-3-option-1']");
+        private readonly By __selectCity = By.XPath("//div[@class=' css-1wa3eu0-placeholder']");
+        private readonly By __selectCity = By.XPath("//div[@class=' css-1wa3eu0-placeholder']");
+         private readonly By __uttarPradesh = By.XPath("//*[@id='react-select-4-option-1']");
+
+
+
+
+
+
 
 
 
@@ -132,6 +143,18 @@ namespace TechDemoCSharpTranzactv2.PageObjects
        public string GetDateOfBirth()
         {
             return Driver.FindElement(_dateBirthButton).GetAttribute("value");
+        }
+
+          public void ClickStateButton()
+        {
+            Click(__selectState);
+            WaitForPageToBeLoaded();
+        }
+
+           public void ClickSelectedStateButton()
+        {
+            Click(__uttarPradesh);
+            WaitForPageToBeLoaded();
         }
 
 

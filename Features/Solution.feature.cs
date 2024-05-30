@@ -141,6 +141,12 @@ this.ScenarioInitialize(scenarioInfo);
 #line 31
     testRunner.When("I enter Current Address as \"Obispo Street\" for Student Registration Form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
+#line 32
+    testRunner.When("I click State  Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 33
+    testRunner.When("I click Selected State Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
             }
             this.ScenarioCleanup();
         }

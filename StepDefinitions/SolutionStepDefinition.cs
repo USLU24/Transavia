@@ -245,6 +245,22 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
             }
         }
 
+         [When(@"I click State  Button")]
+        public void IClickStateButton()
+        {
+           _demoqapractifeformpage.ClickStateButton();
+
+            _util.TakeScreenshot(_driver);
+        }
+
+         [When(@"I click Selected State Button")]
+        public void IClickSelectedStateButton()
+        {
+           _demoqapractifeformpage.ClickSelectedStateButton();
+
+            _util.TakeScreenshot(_driver);
+        }
+
 
 
     
