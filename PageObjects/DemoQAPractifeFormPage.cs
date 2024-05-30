@@ -15,11 +15,14 @@ namespace TechDemoCSharpTranzactv2.PageObjects
         private readonly By _monthSelect = By.XPath("//select[@class='react-datepicker__month-select']");
         private readonly By __yearSelect = By.XPath("//select[@class='react-datepicker__year-select']");
         private By _daySelect = By.ClassName("react-datepicker__day");
-        private readonly By __selectState = By.XPath("(//div[@class=' css-1wa3eu0-placeholder'])[1]]");
+        private readonly By __selectState = By.XPath("//div[text()='Select State']");
         private readonly By __uttarPradesh = By.XPath("//*[@id='react-select-3-option-1']");
         private readonly By __selectCity = By.XPath("//div[@class=' css-1wa3eu0-placeholder']");
-        private readonly By __selectCity = By.XPath("//div[@class=' css-1wa3eu0-placeholder']");
-         private readonly By __uttarPradesh = By.XPath("//*[@id='react-select-4-option-1']");
+        private readonly By __lucklow = By.XPath("//*[@id='react-select-4-option-1']");
+        private readonly By __submit = By.XPath("//button[@id='submit']");
+        private readonly By __verifySubmitText = By.XPath("//div[text()='Thanks for submitting the form']");
+
+
 
 
 
@@ -127,14 +130,13 @@ namespace TechDemoCSharpTranzactv2.PageObjects
 
          public void SelectDay(string text)
          {
-            // FindElements metodunu kullanarak _daySelect locatörü ile öğeleri bulun
             List<IWebElement> daysElement = Driver.FindElements(_daySelect).ToList();
             foreach (IWebElement dayElement in daysElement)
             {
                 string day = dayElement.Text;
                 if (day.Equals(text))
                 {
-                    dayElement.Click(); // Doğrudan IWebElement'i tıklayın
+                    dayElement.Click();
                     break;
                 }
             }
@@ -151,11 +153,34 @@ namespace TechDemoCSharpTranzactv2.PageObjects
             WaitForPageToBeLoaded();
         }
 
-           public void ClickSelectedStateButton()
+           public void ClickDynamicSelectedStateButton()
         {
             Click(__uttarPradesh);
             WaitForPageToBeLoaded();
         }
+
+          public void ClickCityButton()
+        {
+            Click(__selectCity);
+            WaitForPageToBeLoaded();
+        }
+
+           public void ClickDynamicSelectedCityButton()
+        {
+            Click(__lucklow);
+            WaitForPageToBeLoaded();
+        }
+            public void SubmitSubmitButton()
+        {
+            Submit(__submit);
+            WaitForPageToBeLoaded();
+        }
+
+        public bool IsThanksMessageDisplayed()
+        {
+            return IsDisplayed(__verifySubmitText);
+        }
+        
 
 
 

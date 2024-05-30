@@ -31,6 +31,12 @@ Scenario: DemoQA Practice Form page
     When I enter Current Address as "Obispo Street" for Student Registration Form
     When I click State  Button
     When I click Selected State Button
+    When I click City  Button
+    When I click Selected City Button
+    When I submit Submit Button
+    Then I verify that the thanks message is displayed
+
+
 
 
 

@@ -256,11 +256,44 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
          [When(@"I click Selected State Button")]
         public void IClickSelectedStateButton()
         {
-           _demoqapractifeformpage.ClickSelectedStateButton();
+           _demoqapractifeformpage.ClickDynamicSelectedStateButton();
 
             _util.TakeScreenshot(_driver);
         }
 
+           [When(@"I click City  Button")]
+        public void IClickCityButton()
+        {
+           _demoqapractifeformpage.ClickCityButton();
+
+            _util.TakeScreenshot(_driver);
+        }
+
+          [When(@"I click Selected City Button")]
+        public void IClickSelectedCityButton()
+        {
+           _demoqapractifeformpage.ClickDynamicSelectedCityButton();
+
+            _util.TakeScreenshot(_driver);
+        }
+
+          [When(@"I submit Submit Button")]
+        public void ISubmitSubmitButton()
+        {
+           _demoqapractifeformpage.SubmitSubmitButton();
+
+            _util.TakeScreenshot(_driver);
+        }
+
+        [Then(@"I verify that the thanks message is displayed")]
+        public void ThenVerifyThanksMessageIsDisplayed()
+        {
+            bool isDisplayed = _demoqapractifeformpage.IsThanksMessageDisplayed();
+            if (!isDisplayed)
+            {
+                throw new Exception("Thanks message is not displayed.");
+            }
+        }
 
 
     

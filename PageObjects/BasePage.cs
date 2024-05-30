@@ -177,6 +177,25 @@ namespace TechDemoCSharpTranzactv2.PageObjects
             select.SelectByText(visibleText);
         }
 
+         public void Submit(By element)
+        {
+            WaitWebElementVisibleBy(element);
+            WaitWebElementClickableBy(element);
+            Driver.FindElement(element).Submit();
+        }
+
+        public bool IsDisplayed(By locator)
+        {
+            try
+            {
+                return Driver.FindElement(locator).Displayed;
+            }
+            catch (NoSuchElementException)
+            {
+                return false;
+            }
+        }
+
         
 
        
@@ -197,7 +216,7 @@ namespace TechDemoCSharpTranzactv2.PageObjects
                 case "Normal":
                     break;
                 default:
-                    ; // Do nothing
+                    ; 
                     break;
             }
         }
