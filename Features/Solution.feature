@@ -24,10 +24,11 @@ Scenario: DemoQA Practice Form page
     When I enter Birth Month as "December" for Student Registration Form
     When I enter Birth Year as "1995" for Student Registration Form
     When I enter Select day as "19" for Student Registration Form
-   # When I click Hobbies Sports Button
-   # When I click Hobbies Reading Button
-    #When I click Hobbies Music Button
-    #When I enter Current Address as "Obispo Street" for Student Registration Form
+    Then I verify the date of birth is "19 Dec 1995"
+    When I click Hobbies Sports Button
+    When I click Hobbies Reading Button
+    When I click Hobbies Music Button
+    When I enter Current Address as "Obispo Street" for Student Registration Form
 
 
 

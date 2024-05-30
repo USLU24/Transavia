@@ -129,6 +129,11 @@ namespace TechDemoCSharpTranzactv2.PageObjects
             }
         }
 
+       public string GetDateOfBirth()
+        {
+            return Driver.FindElement(_dateBirthButton).GetAttribute("value");
+        }
+
 
 
 

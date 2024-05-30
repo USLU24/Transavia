@@ -235,14 +235,19 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
             _util.TakeScreenshot(_driver);
         }
 
+        [Then(@"I verify the date of birth is ""([^""]*)""")]
+        public void ThenVerifyDateOfBirth(string expectedDate)
+        {
+            string actualDate = _demoqapractifeformpage.GetDateOfBirth();
+            if (actualDate != expectedDate)
+            {
+                throw new Exception($"Expected date of birth: {expectedDate}, but got: {actualDate}");
+            }
+        }
 
 
-        
 
-
-
-
-        
+    
  
          }
 }
