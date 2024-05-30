@@ -1,4 +1,4 @@
-lusing TechDemoCSharpTranzactv2.PageObjects;
+using TechDemoCSharpTranzactv2.PageObjects;
 
 namespace TechDemoCSharpTranzactv2.StepDefinitions
 {
@@ -206,6 +206,31 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
         public void IClickDateOfBirth()
         {
            _demoqapractifeformpage.ClickDateBirthButton();
+
+            _util.TakeScreenshot(_driver);
+        }
+
+         [When(@"I enter Birth Month as ""([^""]*)"" for Student Registration Form")]
+        public void IEnterBirthMonth(string text)
+        {
+           _demoqapractifeformpage.SelectByVisibleTextMonth(text);
+
+            _util.TakeScreenshot(_driver);
+        }
+
+         [When(@"I enter Birth Year as ""([^""]*)"" for Student Registration Form")]
+        public void IEnterBirthYear(string text)
+        {
+           _demoqapractifeformpage.SelectByVisibleTextYear(text);
+
+            _util.TakeScreenshot(_driver);
+        }
+
+
+        [When(@"I enter Select day as ""([^""]*)"" for Student Registration Form")]
+        public void IEnterSelectDay(string text)
+        {
+           _demoqapractifeformpage.SelectDay(text);
 
             _util.TakeScreenshot(_driver);
         }

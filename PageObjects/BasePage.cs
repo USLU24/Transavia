@@ -169,7 +169,7 @@ namespace TechDemoCSharpTranzactv2.PageObjects
             js.ExecuteScript("arguments[0].scrollIntoView(true);", webElement);
         }
 
-        public void SelectByVisibleText(By element,string visibleText)
+        public void SelectByVisibleText(By element, string visibleText)
         {
             WaitWebElementVisibleBy(element);
              IWebElement dropdown = Driver.FindElement(element);

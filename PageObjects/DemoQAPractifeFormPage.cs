@@ -14,6 +14,8 @@ namespace TechDemoCSharpTranzactv2.PageObjects
         private readonly By _currentAddress = By.XPath("//textarea[@id='currentAddress']");
         private readonly By _monthSelect = By.XPath("//select[@class='react-datepicker__month-select']");
         private readonly By __yearSelect = By.XPath("//select[@class='react-datepicker__year-select']");
+        private By _daySelect = By.ClassName("react-datepicker__day");
+
 
 
 
@@ -57,8 +59,9 @@ namespace TechDemoCSharpTranzactv2.PageObjects
         }
 
          public void ClickGenderMaleButton()
-        {
-            Click(_genderMale);
+       {
+             ScrollToElement(_genderMale);
+             Click(_genderMale);
             WaitForPageToBeLoaded();
         }
 
@@ -99,17 +102,32 @@ namespace TechDemoCSharpTranzactv2.PageObjects
             WaitForPageToBeLoaded();
         }
  
-           public void SelectByVisibleTextMonth(string text )
+           public void SelectByVisibleTextMonth(string text)
         {
                 WaitForPageToBeLoaded();
                 SelectByVisibleText(_monthSelect,text);
          }
 
-              public void SelectByVisibleTextYear(string text )
+              public void SelectByVisibleTextYear(string text)
         {
                 WaitForPageToBeLoaded();
                 SelectByVisibleText(__yearSelect,text);
          }
+
+         public void SelectDay(string text)
+         {
+            // FindElements metodunu kullanarak _daySelect locatörü ile öğeleri bulun
+            List<IWebElement> daysElement = Driver.FindElements(_daySelect).ToList();
+            foreach (IWebElement dayElement in daysElement)
+            {
+                string day = dayElement.Text;
+                if (day.Equals(text))
+                {
+                    dayElement.Click(); // Doğrudan IWebElement'i tıklayın
+                    break;
+                }
+            }
+        }
 
 
 

@@ -1,0 +1,261 @@
+{
+  "uuid": "4aa8eac8-e1b8-4e2f-a7bb-5188a614a537",
+  "historyId": "33ce9ffda15610cf499d5d26de365844",
+  "testCaseId": "d6a9d042fffc8c42ba080b3c00ce2faf",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/DemoQA Practice Form page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-A"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-B"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "DemoQA Practice Form page",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching definition found for the step 'I enter Select day as \"19\" for Student Registration Form'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the  DemoQA Practife Form page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_14-08-06_380.png",
+          "source": "6bcb7987-0479-41e1-a22f-94443bda5ff9-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717067272722,
+      "stop": 1717067286642
+    },
+    {
+      "name": "When  I enter Name as \"Muharrem\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_14-08-06_745.png",
+          "source": "0116f014-af05-41a7-8503-4c00de885cc7-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717067286642,
+      "stop": 1717067286943
+    },
+    {
+      "name": "When  I enter Surname as \"Uslu\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_14-08-06_975.png",
+          "source": "1622a560-e337-418c-badd-207c7a471f4b-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717067286943,
+      "stop": 1717067287723
+    },
+    {
+      "name": "When  I enter Mail as \"muharrem.uslu@example.com\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_14-08-07_758.png",
+          "source": "bbf06d27-de82-4076-950c-5a7d2287fbb0-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717067287723,
+      "stop": 1717067287949
+    },
+    {
+      "name": "When  I click Gender Male Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_14-08-07_995.png",
+          "source": "28d95dbe-dc1e-491e-8f60-5719ac2dc93a-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717067287949,
+      "stop": 1717067288216
+    },
+    {
+      "name": "When  I enter Mobile Number as \"0123456789\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_14-08-08_265.png",
+          "source": "34b16ebe-73d1-411f-adab-12d154bf8b46-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717067288216,
+      "stop": 1717067288441
+    },
+    {
+      "name": "When  I click Date Of Birth Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_14-08-08_502.png",
+          "source": "7f7c05fc-4d8a-4019-b65e-bfc265274489-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717067288441,
+      "stop": 1717067288716
+    },
+    {
+      "name": "When  I enter Birth Month as \"December\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_14-08-08_769.png",
+          "source": "c8a19f3b-f3fc-41d9-9ac8-6563f5e721de-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717067288717,
+      "stop": 1717067288956
+    },
+    {
+      "name": "When  I enter Birth Year as \"1995\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-05-30_14-08-08_993.png",
+          "source": "13ceabec-8f3f-4404-bd9a-7dd7958bc64e-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1717067288956,
+      "stop": 1717067289171
+    },
+    {
+      "name": "When  I enter Select day as \"19\" for Student Registration Form",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1717067289171,
+      "stop": 1717067289203
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1717067272716,
+  "stop": 1717067289215
+}
