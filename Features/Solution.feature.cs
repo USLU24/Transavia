@@ -76,13 +76,49 @@ namespace SolutionProject.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("DemoQA Practice Form page")]
+        [NUnit.Framework.DescriptionAttribute("DemoQA Buttons page")]
         [NUnit.Framework.CategoryAttribute("Demo-A")]
+        public void DemoQAButtonsPage()
+        {
+            string[] tagsOfScenario = new string[] {
+                    "Demo-A"};
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("DemoQA Buttons page", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 7
+  this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 8
+    testRunner.Given("I am on the  DemoQA Buttons page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 9
+    testRunner.When("I click on the doubleclick button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 10
+    testRunner.Then("Message \"You have done a double click\" from doubleClick", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 11
+    testRunner.When("I click on the rightclick button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 12
+    testRunner.Then("Message \"You have done a right click\" from rightClick", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("DemoQA Practice Form page")]
         [NUnit.Framework.CategoryAttribute("Demo-B")]
         public void DemoQAPracticeFormPage()
         {
             string[] tagsOfScenario = new string[] {
-                    "Demo-A",
                     "Demo-B"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("DemoQA Practice Form page", null, tagsOfScenario, argumentsOfScenario, featureTags);
@@ -100,13 +136,13 @@ this.ScenarioInitialize(scenarioInfo);
     testRunner.Given("I am on the  DemoQA Practife Form page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 18
-    testRunner.When("I enter Name as \"Muharrem\" for Student Registration Form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+    testRunner.When("I enter Name as \"Abcd\" for Student Registration Form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 19
-    testRunner.When("I enter Surname as \"Uslu\" for Student Registration Form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+    testRunner.When("I enter Surname as \"EFG\" for Student Registration Form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 20
-    testRunner.When("I enter Mail as \"muharrem.uslu@example.com\" for Student Registration Form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+    testRunner.When("I enter Mail as \"abcd.efgh@example.com\" for Student Registration Form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 21
     testRunner.When("I click Gender Male Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
@@ -158,6 +194,82 @@ this.ScenarioInitialize(scenarioInfo);
 #line hidden
 #line 37
     testRunner.Then("I verify that the thanks message is displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("DemoQA Alert page")]
+        [NUnit.Framework.CategoryAttribute("Demo-D")]
+        public void DemoQAAlertPage()
+        {
+            string[] tagsOfScenario = new string[] {
+                    "Demo-D"};
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("DemoQA Alert page", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 40
+  this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 41
+    testRunner.Given("I am on the  DemoQA Alerts  page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 42
+    testRunner.When("I click Click me  Button for Alert", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 43
+    testRunner.When("I click Click me  Button for five seconds after appear Alert", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 44
+    testRunner.When("I click Confrim button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 45
+    testRunner.Then("Message \"You selected Ok\" from Confirm Button.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 46
+    testRunner.When("I click Promt button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 47
+    testRunner.When("I send keys to Alert and accept", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Verify slider values are equal")]
+        [NUnit.Framework.CategoryAttribute("Demo-E")]
+        public void VerifySliderValuesAreEqual()
+        {
+            string[] tagsOfScenario = new string[] {
+                    "Demo-E"};
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify slider values are equal", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 50
+   this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 51
+    testRunner.Given("I navigate to the DemoQA slider page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 52
+    testRunner.When("I drag the slider button to the right", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 53
+    testRunner.Then("the slider value should match the slider value text", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

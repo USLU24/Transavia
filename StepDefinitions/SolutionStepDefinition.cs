@@ -1,5 +1,6 @@
 using TechDemoCSharpTranzactv2.PageObjects;
 
+
 namespace TechDemoCSharpTranzactv2.StepDefinitions
 {
     [Binding]
@@ -13,6 +14,10 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
         private readonly TransaviaDestinationsPage _transaviadestions;
         private readonly DemoQAButtonsPage _demoqabuttonspage;
         private readonly DemoQAPractifeFormPage _demoqapractifeformpage;
+        private readonly DemoQAAlertsPage _demoqaalertspage;
+        private readonly DemoQASliderPage _demoqasliderpage;
+
+
 
         private List<string> _elementTexts;
 
@@ -27,6 +32,8 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
             _transaviadestions = new TransaviaDestinationsPage(_driver);
             _demoqabuttonspage=new DemoQAButtonsPage(_driver);
             _demoqapractifeformpage=new DemoQAPractifeFormPage(_driver);
+            _demoqaalertspage=new DemoQAAlertsPage(_driver);
+            _demoqasliderpage=new DemoQASliderPage(_driver);
         }
 
         // The rest of the methods in the class are SpecFlow step definitions. Each method corresponds to a step in the Gherkin feature file
@@ -293,9 +300,94 @@ namespace TechDemoCSharpTranzactv2.StepDefinitions
             {
                 throw new Exception("Thanks message is not displayed.");
             }
+           _util.TakeScreenshot(_driver);
+
+        }
+
+        [Given(@"I am on the  DemoQA Alerts  page")]
+        public void IAmOnTheDemoQAAlertsPage()
+        {
+            _demoqaalertspage.LoadDemoQAAlertsPage();
+
+            _util.TakeScreenshot(_driver);
+        }
+
+         [When(@"I click Click me  Button for Alert")]
+        public void IClickMeButtonForAlert()
+        {
+            _demoqaalertspage.ClickAlertButton();
+
+            _util.TakeScreenshot(_driver);
+        }
+
+          [When(@"I click Click me  Button for five seconds after appear Alert")]
+        public void IClickMeButtonForFiveSecondsAppearAlert()
+        {
+            _demoqaalertspage.ClickAlertAfterAppearButton();
+
+            _util.TakeScreenshot(_driver);
+        }
+           [When(@"I click Confrim button")]
+        public void IClickClickConfirmButton()
+        {
+            _demoqaalertspage.ClickConfirmButton();
+
+            _util.TakeScreenshot(_driver);
+        }
+        
+         [Then(@"Message ""(.*)"" from Confirm Button.")]
+        public void VerifyClickConfirmButtonMessage(string expectedMessage)
+        {
+           _demoqaalertspage.ClickConfirmButtonMessage(expectedMessage);
+           _util.TakeScreenshot(_driver);
+        }
+
+          [When(@"I click Promt button")]
+        public void IClickClickPromtButton()
+        {
+            _demoqaalertspage.ClickPromtButton();
+
+            _util.TakeScreenshot(_driver);
+        }
+
+        [When(@"I send keys to Alert and accept")]
+         public void ISendKeysToAlertAndAccept()
+          {
+        _demoqaalertspage.SendKeysToAlertAndAccept("Neo");
+        _demoqaalertspage.HandleAlertIfPresent();
+        _util.TakeScreenshot(_driver);
+         }
+
+           [Given(@"I navigate to the DemoQA slider page")]
+          public void GivenINavigateToTheDemoQASliderPage()
+        {
+           _demoqasliderpage.LoadDemoQASliderPage();
+        }
+
+           [When(@"I drag the slider button to the right")]
+          public void WhenIDragTheSliderButtonToTheRight()
+        {
+            _demoqasliderpage.SliderButtonDrangAndDrop();
+        }
+
+          [Then(@"the slider value should match the slider value text")]
+         public void ThenTheSliderValueShouldMatchTheSliderValueText()
+        {
+           bool result = _demoqasliderpage.CompareSliderValues();
+            _util.TakeScreenshot(_driver);
         }
 
 
+
+
+
+                           
+        
+  
+
+        
+
+        
     
  
          }

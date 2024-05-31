@@ -48,6 +48,12 @@ namespace TechDemoCSharpTranzactv2.PageObjects
             return Driver.FindElement(locator).Text;
         }
 
+        public string GetAttribute(By locator, string attributeName)
+        {
+           WaitWebElementVisibleBy(locator);
+          return Driver.FindElement(locator).GetAttribute(attributeName);
+        }
+
         // GetTexts retrieves texts from multiple web elements specified by the 'locator'.
         public List<string> GetTexts(By locator)
         {
@@ -110,13 +116,17 @@ namespace TechDemoCSharpTranzactv2.PageObjects
             new WebDriverWait(Driver, timeout).Until(ExpectedConditions.ElementIsVisible(element));
         }
 
-        // WaitWebElementsVisibleBy waits until all specified web elements are visible.
         public void WaitWebElementsVisibleBy(By elements)
         {
             Wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(elements));
         }
 
-        // AssertElementPresent asserts that a web element is present and visible.
+        public void WaitAlertIsPresent()
+        {
+        Wait.Until(ExpectedConditions.AlertIsPresent());
+        }
+    
+
         public void AssertElementPresent(By element)
         {
             WaitWebElementVisibleBy(element);
@@ -195,6 +205,49 @@ namespace TechDemoCSharpTranzactv2.PageObjects
                 return false;
             }
         }
+
+        public void HandleAlertIfPresent()
+        {
+        try
+        {
+            WaitAlertIsPresent();
+            IAlert alert = Driver.SwitchTo().Alert();
+            alert.Accept();
+        }
+        catch (NoAlertPresentException)
+        {
+             Console.WriteLine("No alert present to accept.");
+  
+        }
+        }
+
+         public void SendKeysToAlertAndAccept(string text)
+        {
+          try
+          {
+            WaitAlertIsPresent();
+            IAlert alert = Driver.SwitchTo().Alert();
+            alert.SendKeys(text);
+           }
+           catch (NoAlertPresentException)
+           {
+            Console.WriteLine("No alert present to send keys to and accept.");
+           }
+            catch (UnhandledAlertException ex)
+            {
+             Console.WriteLine("Beklenmeyen uyarı: " + ex.Message);
+                Driver.SwitchTo().Alert().Dismiss();
+            }
+        
+        }
+
+        public void DragAndDropToOffset(By locator, int xOffset, int yOffset)
+        {
+           IWebElement sourceElement = Driver.FindElement(locator);
+           Actions actions = new Actions(Driver);
+           actions.DragAndDropToOffset(sourceElement, xOffset, yOffset).Perform();
+         }
+        
 
         
 
