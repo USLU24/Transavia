@@ -1,0 +1,370 @@
+{
+  "uuid": "69d7a3ce-cb70-4066-8e82-9448b549dafd",
+  "historyId": "33ce9ffda15610cf499d5d26de365844",
+  "testCaseId": "d6a9d042fffc8c42ba080b3c00ce2faf",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/DemoQA Practice Form page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-B"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "DemoQA Practice Form page",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "The HTTP request to the remote WebDriver server for URL http://localhost:60800/session/e2a88a069b2ef107191424dcf8de5aae/url timed out after 60 seconds. -> The request was canceled due to the configured HttpClient.Timeout of 60 seconds elapsing. -> The operation was canceled. -> The operation was canceled. -> Unable to read data from the transport connection: Operation canceled. -> Operation canceled",
+    "trace": "OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:60800/session/e2a88a069b2ef107191424dcf8de5aae/url timed out after 60 seconds.\n ---> System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 60 seconds elapsing.\n ---> System.TimeoutException: The operation was canceled.\n ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.\n ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.\n ---> System.Net.Sockets.SocketException (89): Operation canceled\n   --- End of inner exception stack trace ---\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   --- End of inner exception stack trace ---\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\n   --- End of inner exception stack trace ---\n   --- End of inner exception stack trace ---\n   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.<>c__DisplayClass33_0.<<Execute>b__0>d.MoveNext()\n--- End of stack trace from previous location ---\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\n   --- End of inner exception stack trace ---\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\n   at Transavia.PageObjects.DemoQAPractifeFormPage.LoadDemoQAPractifeFormPage() in /Users/uslum/SpecFlow-F/specflow-framework/PageObjects/DemoQAPractifeFormPage.cs:line 57\n   at Transavia.StepDefinitions.SolutionStepDefinition.IAmOnTheDemoQAPractifeFormPage() in /Users/uslum/SpecFlow-F/specflow-framework/StepDefinitions/SolutionStepDefinition.cs:line 139\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the  DemoQA Practife Form page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "The HTTP request to the remote WebDriver server for URL http://localhost:60800/session/e2a88a069b2ef107191424dcf8de5aae/url timed out after 60 seconds. -> The request was canceled due to the configured HttpClient.Timeout of 60 seconds elapsing. -> The operation was canceled. -> The operation was canceled. -> Unable to read data from the transport connection: Operation canceled. -> Operation canceled",
+        "trace": "OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:60800/session/e2a88a069b2ef107191424dcf8de5aae/url timed out after 60 seconds.\n ---> System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 60 seconds elapsing.\n ---> System.TimeoutException: The operation was canceled.\n ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.\n ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.\n ---> System.Net.Sockets.SocketException (89): Operation canceled\n   --- End of inner exception stack trace ---\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   --- End of inner exception stack trace ---\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\n   --- End of inner exception stack trace ---\n   --- End of inner exception stack trace ---\n   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.<>c__DisplayClass33_0.<<Execute>b__0>d.MoveNext()\n--- End of stack trace from previous location ---\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\n   --- End of inner exception stack trace ---\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\n   at Transavia.PageObjects.DemoQAPractifeFormPage.LoadDemoQAPractifeFormPage() in /Users/uslum/SpecFlow-F/specflow-framework/PageObjects/DemoQAPractifeFormPage.cs:line 57\n   at Transavia.StepDefinitions.SolutionStepDefinition.IAmOnTheDemoQAPractifeFormPage() in /Users/uslum/SpecFlow-F/specflow-framework/StepDefinitions/SolutionStepDefinition.cs:line 139\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028348851,
+      "stop": 1718028408924
+    },
+    {
+      "name": "When  I enter Name as \"Abcd\" for Student Registration Form",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408929,
+      "stop": 1718028408930
+    },
+    {
+      "name": "When  I enter Surname as \"EFG\" for Student Registration Form",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "When  I enter Mail as \"abcd.efgh@example.com\" for Student Registration Form",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "When  I click Gender Male Button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "When  I enter Mobile Number as \"0123456789\" for Student Registration Form",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "When  I click Date Of Birth Button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "When  I enter Birth Month as \"December\" for Student Registration Form",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "When  I enter Birth Year as \"1995\" for Student Registration Form",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "When  I enter Select day as \"19\" for Student Registration Form",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "Then  I verify the date of birth is \"19 Dec 1995\"",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "When  I click Hobbies Sports Button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "When  I click Hobbies Reading Button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "When  I click Hobbies Music Button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "When  I enter Current Address as \"Obispo Street\" for Student Registration Form",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "When  I click State  Button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "When  I click Selected State Button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "When  I click City  Button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "When  I click Selected City Button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "When  I submit Submit Button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    },
+    {
+      "name": "Then  I verify that the thanks message is displayed",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718028408931,
+      "stop": 1718028408931
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1718028348846,
+  "stop": 1718028408935
+}

@@ -2,7 +2,7 @@ using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 using OpenQA.Selenium.Interactions;
 
-namespace TechDemoCSharpTranzactv2.PageObjects
+namespace Transavia.PageObjects
 {
     internal class DemoQASliderPage : BasePage
     {
@@ -24,21 +24,18 @@ namespace TechDemoCSharpTranzactv2.PageObjects
 
         public void SliderButtonDrangAndDrop()
         {
-          System.Threading.Thread.Sleep(3000);
 
           DragAndDropToOffset(_sliderButton,20,0);  
         }
 
         public String SliderValue()
         {
-            System.Threading.Thread.Sleep(3000);
 
             return GetText(_valueSlider);
         }
 
         public String SliderValueText()
         {
-            System.Threading.Thread.Sleep(3000);
 
             return GetAttribute(_sliderValueText,"value");
         } 
@@ -48,7 +45,6 @@ namespace TechDemoCSharpTranzactv2.PageObjects
            string sliderValue = SliderValue();
            string sliderValueText = SliderValueText();
 
-            System.Threading.Thread.Sleep(3000);
 
 
          if (sliderValue == sliderValueText)

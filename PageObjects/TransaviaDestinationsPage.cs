@@ -1,4 +1,4 @@
-namespace TechDemoCSharpTranzactv2.PageObjects
+namespace Transavia.PageObjects
 {
     internal class TransaviaDestinationsPage : BasePage
     {
@@ -49,8 +49,6 @@ namespace TechDemoCSharpTranzactv2.PageObjects
            return GetTexts(_countryText);
         }
 
-        // Method to click the finish button on the checkout overview page.
-        // This method will be used whenever we need to complete the checkout process in our tests.
 
         }
 }

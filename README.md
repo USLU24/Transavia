@@ -1,9 +1,5 @@
 # Demo for SpecFlow C# Muharrem USLU
 
-[![pages-build-deployment](https://github.com/jahirmedinacs/Tech-Demo-CSharp-Tranzact/actions/workflows/pages/pages-build-deployment/badge.svg?branch=WebReport)](https://github.com/jahirmedinacs/Tech-Demo-CSharp-Tranzact/actions/workflows/pages/pages-build-deployment)
-
-
-
 ## Introduction
 
 This project is the given solution for the Technicall Interview Challenge, check the 
@@ -46,10 +42,6 @@ allure serve bin/Debug/net6.0/allure-results
 - Browser: The browser to use for the tests
   - `Chrome`
   - `Firefox`
-- AutomationSpeed: The speed of the automation
-  - `Normal`
-  - `Slow`
-  - `Slowest`
 - BrowserMode: The mode of the browser
   - `Normal`
   - `Headless`

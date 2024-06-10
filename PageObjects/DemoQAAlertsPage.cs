@@ -2,7 +2,7 @@ using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 using OpenQA.Selenium.Interactions;
 
-namespace TechDemoCSharpTranzactv2.PageObjects
+namespace Transavia.PageObjects
 {
     internal class DemoQAAlertsPage : BasePage
     {

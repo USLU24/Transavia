@@ -1,4 +1,4 @@
-namespace TechDemoCSharpTranzactv2.PageObjects
+namespace Transavia.PageObjects
 {
     internal class DemoQAPractifeFormPage : BasePage
     {

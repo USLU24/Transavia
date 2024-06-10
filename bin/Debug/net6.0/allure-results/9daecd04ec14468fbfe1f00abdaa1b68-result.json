@@ -1,0 +1,102 @@
+{
+  "uuid": "ac7e60ec-ef83-4192-80ed-a973620813e0",
+  "historyId": "e51531465dc0e5fdd663dd53df64c9d1",
+  "testCaseId": "c44a02f00c5de01c492fed64cda93e24",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/Verify slider values are equal",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-E"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "Verify slider values are equal",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I navigate to the DemoQA slider page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718027686773,
+      "stop": 1718027699698
+    },
+    {
+      "name": "When  I drag the slider button to the right",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718027699699,
+      "stop": 1718027700262
+    },
+    {
+      "name": "Then  the slider value should match the slider value text",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-55-00_298.png",
+          "source": "b8c1c34f-c530-42ba-84c5-f62401f93d34-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027700262,
+      "stop": 1718027700554
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1718027686773,
+  "stop": 1718027700554
+}

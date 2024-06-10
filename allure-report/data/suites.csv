@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jun 10 14:18:42 TRT 2024","Mon Jun 10 14:19:08 TRT 2024","26156","","","","","","Verify slider values are equal",""
+"passed","Mon Jun 10 14:24:38 TRT 2024","Mon Jun 10 14:25:41 TRT 2024","63449","","","","","","DemoQA Practice Form page",""

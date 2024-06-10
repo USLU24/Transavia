@@ -4,7 +4,7 @@ Feature: Tech Interview Challenge Solution
 This is the BDD Cucumber feature file for the solution
 
 
-    @Demo-B
+ @Demo-B
 Scenario: DemoQA Practice Form page
     Given I am on the  DemoQA Practife Form page
     When I enter Name as "Abcd" for Student Registration Form

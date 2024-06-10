@@ -1,0 +1,486 @@
+{
+  "uuid": "a2bc0734-6e9a-4b0b-a0e9-2f4b747d3934",
+  "historyId": "33ce9ffda15610cf499d5d26de365844",
+  "testCaseId": "d6a9d042fffc8c42ba080b3c00ce2faf",
+  "fullName": "SolutionProject/Features/Tech Interview Challenge Solution/DemoQA Practice Form page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "M537"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Tech Interview Challenge Solution"
+    },
+    {
+      "name": "tag",
+      "value": "Demo-B"
+    },
+    {
+      "name": "tag",
+      "value": "Demo"
+    }
+  ],
+  "links": [],
+  "name": "DemoQA Practice Form page",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the  DemoQA Practife Form page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-41_051.png",
+          "source": "091e8fb4-c038-4049-bdb2-e6181a9cda35-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027676964,
+      "stop": 1718027681276
+    },
+    {
+      "name": "When  I enter Name as \"Abcd\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-41_408.png",
+          "source": "d619794c-431f-4056-98e4-f4cd04a82eb6-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027681276,
+      "stop": 1718027681703
+    },
+    {
+      "name": "When  I enter Surname as \"EFG\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-41_732.png",
+          "source": "29551985-5c34-41f2-bf19-d3056796c31b-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027681703,
+      "stop": 1718027681924
+    },
+    {
+      "name": "When  I enter Mail as \"abcd.efgh@example.com\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-41_959.png",
+          "source": "41e976b3-d3ff-4423-b294-5b49e4ce1c8e-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027681924,
+      "stop": 1718027682159
+    },
+    {
+      "name": "When  I click Gender Male Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-42_211.png",
+          "source": "a91eb73f-af4b-4cc5-bc62-d2249c63a63f-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027682159,
+      "stop": 1718027682421
+    },
+    {
+      "name": "When  I enter Mobile Number as \"0123456789\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-42_463.png",
+          "source": "6e4addc5-ff7c-45b9-b59b-049a4b7cde99-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027682421,
+      "stop": 1718027682629
+    },
+    {
+      "name": "When  I click Date Of Birth Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-42_689.png",
+          "source": "728524a6-a0c5-4b03-a821-9c04734fa00b-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027682629,
+      "stop": 1718027682867
+    },
+    {
+      "name": "When  I enter Birth Month as \"December\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-42_916.png",
+          "source": "cc2ad606-340c-4699-8060-c0123d7c060f-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027682867,
+      "stop": 1718027683106
+    },
+    {
+      "name": "When  I enter Birth Year as \"1995\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-43_156.png",
+          "source": "381f0657-767f-40c2-8478-83c2c1ae4771-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027683106,
+      "stop": 1718027683341
+    },
+    {
+      "name": "When  I enter Select day as \"19\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-43_431.png",
+          "source": "77f1f2f7-aae6-480d-af6f-097dc63493e4-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027683341,
+      "stop": 1718027683626
+    },
+    {
+      "name": "Then  I verify the date of birth is \"19 Dec 1995\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718027683626,
+      "stop": 1718027683632
+    },
+    {
+      "name": "When  I click Hobbies Sports Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-43_671.png",
+          "source": "6f48e6d4-4585-458d-af24-4fc88cc3a2c5-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027683632,
+      "stop": 1718027683872
+    },
+    {
+      "name": "When  I click Hobbies Reading Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-43_907.png",
+          "source": "31f9cb78-16b4-4e10-b98f-36420e864cb4-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027683872,
+      "stop": 1718027684089
+    },
+    {
+      "name": "When  I click Hobbies Music Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-44_127.png",
+          "source": "01d08627-6fd2-442f-b972-0093b1e06dbd-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027684089,
+      "stop": 1718027684308
+    },
+    {
+      "name": "When  I enter Current Address as \"Obispo Street\" for Student Registration Form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-44_345.png",
+          "source": "aa93a499-cda1-4dc0-9314-23378f816fd6-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027684308,
+      "stop": 1718027684524
+    },
+    {
+      "name": "When  I click State  Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-44_564.png",
+          "source": "5ab1d03d-49e9-4c6d-b676-bf3bd4243608-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027684524,
+      "stop": 1718027684741
+    },
+    {
+      "name": "When  I click Selected State Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-44_780.png",
+          "source": "685ed1df-9625-4d06-a593-446206bcba19-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027684741,
+      "stop": 1718027684975
+    },
+    {
+      "name": "When  I click City  Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-45_011.png",
+          "source": "5944d14e-79f0-4f25-accf-ec33b53d0a16-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027684975,
+      "stop": 1718027685190
+    },
+    {
+      "name": "When  I click Selected City Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-45_229.png",
+          "source": "4de72d5f-695b-4ff0-8204-2ffd03cc4cb3-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027685190,
+      "stop": 1718027685405
+    },
+    {
+      "name": "When  I submit Submit Button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-45_460.png",
+          "source": "ba71925b-e3b3-422d-a703-2465156e60bb-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027685405,
+      "stop": 1718027685669
+    },
+    {
+      "name": "Then  I verify that the thanks message is displayed",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "2024-06-10_16-54-45_678.png",
+          "source": "f63fd62a-6478-489f-84c0-ce68ef4fda42-attachment",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1718027685669,
+      "stop": 1718027685855
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1718027676960,
+  "stop": 1718027685856
+}

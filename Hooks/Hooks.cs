@@ -3,7 +3,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 
 // Namespace declaration for the project
-namespace TechDemoCSharpTranzactv2.Hooks
+namespace Transavia.Hooks
 {
     // The Binding attribute is used by SpecFlow to identify this class as containing bindings for steps, hooks, etc.
     [Binding]
