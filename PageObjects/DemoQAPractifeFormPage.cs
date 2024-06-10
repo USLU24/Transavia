@@ -59,6 +59,8 @@ namespace TechDemoCSharpTranzactv2.PageObjects
 
         public void EnterFirstName(string user)
         {
+            ScrollToElement(_firstName);
+
             SendText(_firstName,user);
         }
 

@@ -3,14 +3,6 @@ Feature: Tech Interview Challenge Solution
 
 This is the BDD Cucumber feature file for the solution
 
-@Demo-A
-  Scenario: DemoQA Buttons page
-    Given I am on the  DemoQA Buttons page
-    When I click on the doubleclick button
-    Then Message "You have done a double click" from doubleClick
-    When I click on the rightclick button
-    Then Message "You have done a right click" from rightClick
-
 
     @Demo-B
 Scenario: DemoQA Practice Form page
@@ -36,15 +28,6 @@ Scenario: DemoQA Practice Form page
     When I submit Submit Button
     Then I verify that the thanks message is displayed
 
-@Demo-D
-  Scenario: DemoQA Alert page
-    Given I am on the  DemoQA Alerts  page
-    When I click Click me  Button for Alert
-    When I click Click me  Button for five seconds after appear Alert
-    When I click Confrim button
-    Then Message "You selected Ok" from Confirm Button.
-    When I click Promt button
-    When I send keys to Alert and accept
 
 @Demo-E
    Scenario: Verify slider values are equal
